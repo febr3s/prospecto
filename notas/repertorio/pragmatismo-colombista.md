@@ -1,0 +1,8 @@
+Pensando en un aporte concreto al campo, parece plausible un razonamiento a la Nicanor Parra, que se retrotrae a formulaciones previas para pensar las futuras, es decir, volver sobre aquello de "latinoamericanismo: enfermedad senil del colombismo". Y rescatar un poco el pragmatismo colombista. Interesante invertir el razonamiento de Rosa sobre Bello, donde parece tener un tonito de denuncia sobre el uso de Bello de la poesía para gestionar la inversión financiera o la productividad. Es decir, proponer que el colombismo, a diferencia del latinoamericanismo, no encontraba una contradicción entre arte y mercado; todo lo contrario, la explotaba en función del proyecto de soberanía.
+
+###### Beckman, Ericka. _Capital Fictions: The Literature of Latin America’s Export Age_. University of Minnesota Press, 2013. /z-wco
+
+> This is true on the level of individual writers’ roles as economic agents, which went beyond professional writing to include the activities of merchants, speculators, and debtors, among others. This embeddedness is also revealed on the level of representation, as texts and genres sought to make sense of an array of emerging economic practices: among them, the forceful clearing of indigenous lands to make room for coffee cultivation, the pleasures of luxury consumption, and the excruciating experience of personal and national bankruptcy.
+    xxiii
+
+Creo que hay arumentos mucho más solidos en Rama y en el pensamiento de cómo esos dispositivos funcionaban o no dentro de la trama global del capitalismo impreso. Aunque también es interesante explorar ese costado directamente apologético en el modernismo. Interesante también pensar cómo se relaciona con un texto como "Cosas sabidas y por saberse" de Cecilio Acosta.

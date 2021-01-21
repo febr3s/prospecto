@@ -1,0 +1,7 @@
+20201215112433
+
+Zea parece estar pensando en meras yuxtaposiciones de “corrientes filosóficas”, pero en realidad, o más allá de eso, hay una siperposición de tiempos como la del “Delirio sobre el Chimborazo” --una superposición delirante-- que U.P. describe con cierta precisión, y que sería una de las características más sólidas para afirmar el excepcionalismo latinoamericano.
+
+Es lo que que Hegel tematiza como zonas del mundo dentro y fuera de la historia, o más bien que pertenecen a la historia o a la geografía --y que tienen un eco bien sólido en la imaginación americana de Bolívar y Róbinson.
+
+Hay un colapso de los tiempos secuenciales gregorianos, medievales, “homogéneos y vacíos” -O hay un colapso de las temporalidades en la experiencia colonial, que yo aún en un nivel intuitivo, pero cada vez menos opaco, veo en relación con la serie de dicotomías. Por ahora puede afirmarse con cierta claridad que no se trata de una simple yuxtaposición de modelos o proyectos importados que pasan de moda y se suceden sin que medie el esfuerzo de absorción y asimilación, sino de una yuxtaposición constitutiva de temporalidades, que tiene mucho que ver con el “mestizaje” y el modelo de colonia de los ¿hasburgos?
