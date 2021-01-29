@@ -1,9 +1,7 @@
 ### Simon, Joshua. _The Ideology of Creole Revolution : Imperialism and Independence in American and Latin American Political Thought_. Cambridge : Cambridge University Press, 2017.
 
-> Ultimately, and per-
-> haps inevitably, the Latin American countries assumed a place on the
-> global periphery, as primary goods producers frequently subject to for-
-> eign interventions. 11
+> Ultimately, and per haps inevitably, the Latin American countries assumed a place on the
+> global periphery, as primary goods producers frequently subject to foreign interventions. 11
 > 
 > 5
 
