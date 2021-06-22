@@ -1,2 +1,0 @@
-El latinoamericanista es un discurso que explora y explota sacrificialmente "la otredad cargada de resentimiento, furia y amenaza" que había conjurado el discurso conquistador, y en el mismo movimiento conjura su filiación genética, legal, espistemológica y metafórica con ese discurso conquistador mediante la leyenda negra y la non-white mythology.
-[[20201215112504]] [[espectro]]

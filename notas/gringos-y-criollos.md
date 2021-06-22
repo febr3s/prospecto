@@ -1,5 +1,9 @@
 20201215112322
 
+#imprentayracismo
+#latinamericanism
+#capítulo1
+
 Esta idea de “una civilización que comienza por su decadencia, es decir, por donde las demás terminan” --que está en la lectura y presentación que hace Baudelaire de Poe al público europeo-- da cuenta un poco de esa superposición de temporalidades, aunque deberíamos suponer que el caso usamericano es totalmente distinto del latinoamericano. Quizá ahí cabe otra pregunta sobre cómo se da esta yuxtaposición de temporalidades en los dos contextos, de las trece colonias del noreste --cantidad de metros cuadrados, sería extraordinario precisarlos para poner en un plano muy tangible el problema de las dimensiones-- el norte, y el imperio continental.
 
 Ahí quizá uno podría detectar en los distintos grados de “mezcla” un distinto grado de yuxtaposición de temporalidades. Quizá la causa de esto es precisamente el tiempo en que ocurrió la colonización en Estados Unidos: un porcentaje de su territorio actual que debe ser cercano al 80 o 90 por ciento fue colonizado en lo que Zea caracteriza como “proyecto civilizador”. De hecho, la “conquista del oeste” es el paradigma del “proyecto civilizador”. Entonces, la hipótesis sería que, por un lado, en el noreste americano no hubo esa participación protagónica en la co-creación de la ilustración, durante el proceso de colonización y de formación del imperio-mundo. Los colonos que llegan al noreste americano ya están situados en el paradigma de emancipación en la zona del ser: Inglaterra es la periferia del imperio-mundo, y la religión protestante es una tentativa de liberación respecto a la centralidad del catolicismo. El proyecto de colonización inglés ¿no se parece más al paradigma borbónico desde sus inicios?

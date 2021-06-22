@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Zotero Report</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9Cg==">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_G4WEB2YT" class="item book">
+			<h2>Comunidades imaginadas. Reflexiones sobre el origen y la difusión del nacionalismo</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Benedict Anderson</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2006</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>Spanish</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>LCCN: 2006281800</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>México, D.F.</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Fondo de Cultura Económica</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>5/25/2020, 2:48:46 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>8/31/2020, 8:48:44 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_WDUIHVVX">
+<div><p>.</p>
+<blockquote>
+<p>Para expandir nuestra agricultura habría necesidad de his-<br>panizar a nuestros indios. Su ociosidad, estupidez e indife-<br>rencia hacia los esfuerzos humanos normales nos llevan a<br>pensar que provienen de una raza degenerada que se dete-<br>riora en proporción a la distancia de su origen [...] sería<br>muy conveniente que se extinguieran los indios, mezclándolos con<br>los blancos, declarándolos libres de tributo y otros cargos, y otor-<br>gándoles la propiedad privada de la tierra</p>
+</blockquote>
+<p>Pedro Fermín de Vargas, citado por Lynch 32</p>
+<p><em>El mestizaje como programa biopolítico en la clave Nemser/ 
+Jáuregui &amp; Solodkow. Aunque aquí Anderson está hablando de la unidad
+ lingüística en las "comunidades antiguas", para las cuales el 
+semicivlizado era mejor que el bárbaro, y el contraste respecto a 
+Brasil, Argentina y Estados Unidos, donde el paradigma fue la 
+aniquilación bacteriológica y/o militar/paramilitar, y también respecto 
+al "imperialista europeo posterior (?) por los malayos, gurkas y hausas 
+"genuinos".</em></p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Las dos colombias y la conexión mexicana</li>
+				</ul>
+					</li>
+					<li id="item_REFKGERT">
+<div><p>.</p>
+<p>##Americanism</p>
+<p>Por<br>tanto, cuando la historia hizo posible, en 1811, que los<br>revolucionarios venezolanos redactaran una constitu-<br>ción para la Primera República Venezolana, no vieron<br>nada servil en tomarla, palabra por palabra, de la Cons-<br>titución de los Estados Unidos de América. 12 Pues lo<br>que los hombres de Filadelfia habían escrito era, a ojos<br>de los venezolanos, no algo norteamericano sino, antes<br>bien, algo de verdad y valor universales.</p>
+<p>267</p>
+<p><em>Este dato es fundamental, y podríamos además extrapolar, o 
+complejizar la idea de paralelismo. Si no es lo que ya él está 
+sugiriendo. Habría que ver también si en ese primer texto hay indicios 
+de la separación de América del norte, es decir de colombismo.</em></p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>La marca limítrofe fundacional</li>
+				</ul>
+					</li>
+					<li id="item_65YSJ8NC">
+<div><p>.</p>
+<p>##Antepasados y fatalidad</p>
+<p>Pero tales coros pueden unirse en el tiempo. Si soy<br>un letón, mi hija podría ser australiana. El hijo de un<br>inmigrante italiano en Nueva York encontrará antepa-<br>sados en los Padres Fundadores. Si la nacionalidad tie-<br>ne cierta aureola de fatalidad, sin embargo es una fata-<br>lidad integrada a la historia. Aquí resulta ilustrativo el<br>edicto de San Martín que bautizaba como "peruanos"<br>a los indios de habla quechua: un movimiento que tie-<br>ne afinidades con la conversión religiosa.</p>
+<p>205</p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Tres proyectos supranacionales y una realidad alternativa</li>
+				</ul>
+					</li>
+					<li id="item_RTD9ID77">
+<div><p>.</p>
+<p>##Ficción / Conjura</p>
+<p>Lo que<br>estoy proponiendo es que el nacionalismo debe enten-<br>derse alineándolo, no con ideologías políticas conscien-<br>tes, sino con los grandes sistemas culturales que lo pre-<br>cedieron, de donde surgió por oposición [el reino dinástico y la comunidad religiosa].</p>
+<p>30</p>
+<p><em>Habría que ver hasta qué punto puede hablarse de oposición y de 
+precedencia. La nación criolla en cierta medida no surge como oposición a
+ las premisas teológicas, raciales y eugenésicas que lo fundaron, sino 
+como una reafirmación que podríamos llamar irónica o paradójica (No 
+recuerdo el término con precisión, pero hay un concepto estable en la 
+jerga sociopolítica para referirse a este movimiento. Creo que se llama 
+reapropiación: lo que hizo el movimiento de la negritude con la palabra 
+"negro"... Igual creo que esto se separa del foco). Habría que pensar en
+ esta noción de Bohórquez sobre la "usurpación de la legalidad" del 
+reino dinástico. Y claro, esa efeméride uncanny de 1810 es una escena 
+muy nítida de ese principio de Víctor Bravo según la cual "nuestra 
+fundación nos niega y nuestra negación nos funda". Por otro lado, <strong>las
+ escenas de juramento (el juramento de Miranda con sus bucaneros, el 
+juramento de Bolívar y Rodríguez en el Monte Sacro, y el testimonio 
+sobre la extremaución de Rodríguez) podrían emparentarse con alguna 
+noción de religiosidad secularizada</strong>, pero en una tradición 
+romántica (puta cita de Hegel sobre la necesidad de crear una mitología,
+ que no encuentro) cuya relación con lo teológico es complejo. Quizá 
+podría pensarse en lo </em>katechontic <em>como solución de continuidad 
+más evidente, racional, consciente (es decir, nuevamente, más que 
+oposición, continuidad), y en una dimensión menos evidente (aunque 
+visibilizado con nitidez por Rodríguez, y habría que ver las 
+observaciones de Miranda también) como </em>containment <em>de la North Eastern colonization vía protestantismo</em>.</p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>La marca limítrofe fundacional</li>
+					<li>Las dos colombias y la conexión mexicana</li>
+				</ul>
+					</li>
+					<li id="item_FHJC8LHS">
+<div><p>.</p>
+<p>##Ficción / Imprenta</p>
+<p>Esta reciente novedad sincrónica sólo pudo surgir his-<br>tóricamente cuando grandes grupos de personas estu-<br>vieron en posición de considerar que llevaban vidas pa-<br>ralelas a las de otros grupos: si nunca se encontraban,<br>ciertamente procedían a lo largo de la misma trayecto-<br>ria. Entre 1500 y 1800, una acumulación de innovacio-<br>nes técnicas en los campos de la construcción de barcos,<br>la navegación, la relojería y la cartografía, mediadas to-<br>das ellas por el capitalismo de imprenta, estaba hacien-<br>do posible este tipo de imaginación</p>
+<p>261</p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>La marca limítrofe fundacional</li>
+				</ul>
+					</li>
+					<li id="item_F5VGWLVB">
+<div><p>.</p>
+<p>##Ficción / Pasado inmemorial</p>
+<p>Si se concede general-<br>mente que los estados nacionales son "nuevos" e "his-<br>tóricos", las naciones a las que dan una expresión polí-<br>tica presumen siempre de un <strong>pasado inmemorial</strong>, 4 y<br>miran <strong>un futuro ilimitado, lo que es aún más impor-</strong><br><strong>tante</strong>. La magia del nacionalismo es la conversión del<br>azar en destino.<br><br>29<br><br><em>En la experiencia criolla esto ocurre de una manera peculiar, porque <strong>la
+ legalidad que funda lo criollo, lo funda como negación, como límite 
+(ver Carpentier). Es decir, esa gravedad y ese peso de lo destinado son 
+impresos por el "reino dinástico", pero de modo inverso: el pasado 
+inmemorial que funda es el de una nación negada</strong>.</em></p>
+<p><em>Por ser la primera formulación del sincolombismo, la de Miranda 
+no ha sido expuesta a la transformación crítica de los acontecimientos 
+que experimentará con Bolívar. En ese sentido, su indigenismo es quizá 
+más próximo a la ventriloquía modernista. Sin embargo, podría apuntarse 
+que lo que explota Miranda con la ficción especulativa del incanato se 
+diferencia del indigenismo victimizado y demagógico, en tanto se formula
+ a partir del paralelismo, y no de la subalternidad. Responde a la 
+necesidad de un pasado inmemorial y funda la necesidad criolla de 
+recurrir a una genealogía de derrotados con más autoridad y antigüedad 
+que la propia.</em></p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>La marca limítrofe fundacional</li>
+				</ul>
+					</li>
+					<li id="item_W5R4773Q">
+<div><p>.</p>
+<p><em>##Ficción / Imprenta</em></p>
+<p><em>El factor 'mercado' como condición para la "conexión imaginada" 
+como lo argumenta Anderson (59-61) tendría una validez nula en el 
+contexto suramericano a escala social --habría que ver en el 
+norteamericano. Sin embargo hay rasgos que hacen pensar en Miranda como 
+caso extremo, aislado, adelantado. El 
+consumismo/acumulación/coleccionismo del primer "producto industrial 
+producido en masa, al estilo moderno" --en el sentido de que no se miden
+ en cantidades sino en unidad (59)-- lo inserta formalmente en un hábito
+ de consumo propio del capitalismo impreso, del cual la América 
+hispánica es por definición periférico. Por otra parte, el consumo 
+simultáneo "('imaginario') del periódico como ficción" fue de alguna 
+forma emulado en su correspondencia con las juntas desde 1808 --hay que 
+rechequear Bohórquez aquí-- y la ceremonia silenciosa diaria del 
+períodico (60) sería análoga a su propia práctica íntima del diarismo. </em></p>
+<p>&nbsp;</p>
+<p>Es posible que nada haya precipitado esta busca [de sentido después 
+del desencantamiento del mundo como lo describe Anderson (61-62)] en 
+mayor medida, ni la haya hecho más fructífera, que el capitalismo 
+impreso, el que permitió que un número rápidamente creciente de personas
+ pensaran acerca de sí mismos, y se relacionaran con otros, en formas 
+profundamente nuevas.</p>
+<p>62</p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>La marca limítrofe fundacional</li>
+				</ul>
+					</li>
+					<li id="item_FK8X72Q3">
+<div><p>.</p>
+<p><em>##Ficción</em></p>
+<p>&nbsp;</p>
+<p><em>El análisis de la simultaneidad narrativa en </em>Noli Me Tangere<em> y </em>Hnagdaanang Buhay ni Florante at ni Laura sa Cahariang Albania <em>(49-51) se puede poner en relación con el relato en futuro que hace Miranda de la revolución de Independencia</em><em>. </em></p>
+<p>&nbsp;</p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>La marca limítrofe fundacional</li>
+				</ul>
+					</li>
+					<li id="item_UN5MI8EY">
+<div><p>.</p>
+<p><em>#Ficción / universalidad</em></p>
+<p><em>Un límite para tener en consideración a la hora de hacer una 
+analogía entre la Colombeia y la forma novelística en relación con la 
+formación nacional. La "fijeza que funde el mundo interior de la novela 
+con el mundo</em> exterior<em>" que Anderson identifica en </em>Periquillo Sarniento (53)<em>
+ no se puede encontrar en Miranda, en tanto no viajó por América Latina.
+ Todo lo contrario: es un tour-de-monde, y en ese sentido puede ser más 
+interesante como forma pre-novelística asociada a la construcción de 
+nacionalidad, porque estaríamos hablando de una nacionalidad que se 
+define respecto a la universalidad. La "fijeza" en los diarios de 
+Miranda es su propia certeza de nacionalidad.</em></p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>La marca limítrofe fundacional</li>
+				</ul>
+					</li>
+					<li id="item_B48RL45D">
+<div><p>.</p>
+<p>La Utopía de Moro, publicada en 1516,<br>pretendía ser el relato de un marinero, encontrado<br>por el autor en Amberes, que había participado en la<br>expedición de 1497-1498 que Américo Vespucio enca-<br>bezara a las Américas. La New Atlantis (1626) de Francis Bacon fue quizá novedosa sobre todo porque se si-<br>toaba en el océano Pacífico.</p>
+<p>La magnífica isla de los<br>Houyhnhnms, de Swift (1726), apareció con un mapa<br>ficticio de su ubicación en el Atlántico del Sur. (El sig-<br>nificado de los ambientes de estas obras podría acla-<br>rarse si consideráramos cuan inimaginable sería ubicar<br>la República de Platón en cualquier mapa, ficticio o<br>real.) Todas estas utopías fantasiosas, "inspiradas en des-<br>cubrimientos reales, no se describen como paraísos per-<br>didos sino como sociedades contemporáneas. Podría ar-<br>güirse que así tenía que ser, ya que <strong>las utopías eran</strong><br><strong>críticas a las sociedades contemporáneas, y los descu-</strong><br><strong>brimientos habían acabado con la necesidad de buscar</strong><br><strong>modelos en una Antigüedad desaparecida</strong>. 5 Tras los<br>utópicos llegaron las luminarias de la Ilustración</p>
+<p>105</p></div>
+					</li>
+					<li id="item_JC8CBILJ">
+<div><p>##Comunidad imaginada</p>
+<p>Es imaginada porque aun los miembros de la nación<br>más pequeña no conocerán jamás a la mayoría de sus<br>compatriotas, no los verán ni oirán siquiera hablar de<br>ellos, pero en la mente de cada uno vive la imagen de su<br>comunión.<br><br>23</p>
+<p>&nbsp;</p>
+<p>La nación se imagina limitada porque incluso la ma-yor de ellas, que alberga tal vez a mil millones de seres<br>humanos vivos, tiene fronteras finitas, aunque elásticas,<br>más allá de las cuales se encuentran otras naciones</p>
+<p>25</p>
+<p><em>¿Cómo funcionaría esto en el americanismo del norte? Relacionar con Grandin</em></p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Tres proyectos supranacionales y una realidad alternativa</li>
+				</ul>
+					</li>
+					<li id="item_GKG5SU6L">
+<div><p>##Olvido y recuerdo</p>
+<p>Tener que "haber olvidado ya" unas tragedias<br>que nos tienen que "recordar" incesantemente es un re-<br>curso característico en la construcción ulterior de las ge-<br>nealogías nacionales. (Resulta instructivo que Renán no<br>diga que cada ciudadano francés "debe haber olvida-<br>do" la comuna de París. En 1882, su recuerdo aún era<br>real y no mítico, y lo bastante doloroso para que se difi-<br>cultara leerlo bajo el signo de "tranquilizadoramente<br>fratricida".)</p>
+<p>279</p>
+<p><em>Explica que este concepto de Rénan es paradójico, porque eso que 
+se debe "haber olvidado" es primero necesario recordarlo, porque si no 
+de todas formas nadie lo recordaría.</em></p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>El concealment del colombismo en el latinoamericanismo modernista</li>
+				</ul>
+					</li>
+					<li id="item_6PYLD2E5">
+<div><p>##Subalternidad y paralelismo</p>
+<p>En esta misma vena, más y más nacionalistas de "se-<br>gunda generación" en las Américas y en otros lugares<br>aprendieron a hablar "por" los muertos con quienes era<br>imposible o indeseable establecer una conexión lingüís-<br>tica. Esta ventriloquia al revés ayudó a allanar el cami-<br>no a un cohibido indigenismo, sobre todo en la América<br>del Sur (...) Pues mientras que Fermín<br>aún pensaba alegremente en "extinguir" a indios vivos,<br>muchos de sus nietos políticos se obsesionaron "por<br>recordar" y en realidad "hablar por" ellos, tal vez, pre-<br>cisamente, porque para entonces a menudo habían sido<br>extinguidos.</p>
+<p>276</p>
+<p>&nbsp;</p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>La marca limítrofe fundacional</li>
+				</ul>
+					</li>
+					<li id="item_NEFFZGNG">
+<div><p>##Subalternidad y paralelismo</p>
+<p>La duplicidad de los norteamericanos y las razones<br>de ella, ya esbozadas, ayudan a explicar por qué el na-<br>cionalismo surgió antes en el Nuevo Mundo, y no en el<br>Viejo. 9 También iluminan dos rasgos peculiares de las<br>guerras revolucionarias que estallaron en el Nuevo Mun-<br>do entre 1776 y 1825. Por una parte, <strong>ninguno de los</strong><br><strong>revolucionarios criollos soñó con mantener intacto el</strong><br><strong>imperio, sino en modificar su distribución interna del</strong><br><strong>poder, invirtiendo las anteriores relaciones de sujeción,</strong><br><strong>transfiriendo la metrópoli de un lugar europeo a uno</strong><br><strong>americano</strong>. En otras palabras, el objetivo no era hacer triunfar a la Nueva Londres, de derrocar o destruir a la<br>Vieja Londres, sino antes bien salvaguardar su continua-<br>do paralelismo. (Lo nuevo de este estilo de pensamien-<br>to podemos inferirlo de la historia de anteriores impe-<br>rios en decadencia, donde a menudo existió el sueño<br>de remplazar el antiguo centro.)</p>
+<p>265</p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>La marca limítrofe fundacional</li>
+				</ul>
+					</li>
+					<li id="item_DEKNXY6H">
+<div><p>#A partir del capítulo IV</p>
+<p>La mayoría de estas civilizaciones [en Asia y América] habíase desarro-<br>llado enteramente por separado en la historia conoci-<br>da de Europa, la cristiandad y la Antigüedad; en efecto,<br>el hombre y sus genealogías se encontraban fuera del<br>Edén y no podían asimilarse a él. (Sólo el tiempo ho-<br>mogéneo, vacío, podría acomodarlas.)</p>
+<p>104</p>
+<p>&nbsp;</p>
+<p>"La len-<br>gua dejó de ser una continuidad entre un poder exter-<br>no y el hablante humano para convertirse en un cam-<br>po interno, creado y consumado por los usuarios de la<br>lengua entre sí mismos. 8</p>
+<p>106. Citando Edward Said, Orientalism, p. 136.</p>
+<p><em>Nuevamente el tema del lenguaje arbitrario asociado a un nuevo tipo de comunidad, moderna, nacional</em></p>
+<p>&nbsp;</p>
+<p><em>Entre 106 y 113, hace una revisión de la lexicografía, los diccionarios bilingües </em><em>y
+ las gramáticas de lenguas vernáculas en Europa en los siglos XVIII a 
+XIX como un hecho novedoso que dio forma al nacionalismo, pero no 
+menciona a Nebrija, que fue mucho antes, y de más alcance<br></em></p>
+<p>&nbsp;</p>
+<p>Así pues, en términos de la<br>historia mundial fueron las burguesías las primeras clases que alcanzaron la solidaridad esencialmente con<br>base en la imaginación.<em><br></em></p>
+<p>115-116</p>
+<p>&nbsp;</p>
+<p><em>Sobre la unificación lingüística en Europa (117)</em></p>
+<p>&nbsp;</p>
+<p>En<br>la "realidad", el temor que asaltaba a Bolívar sobre las<br>insurrecciones de los negros, y el llamado que hizo San<br>Martín a los indígenas para que se unieran a la perua-<br>nidad, los empujó al caos. Pero las palabras impresas<br>acabaron casi de inmediato con los temores de Bolívar,<br>de modo que aparecían como una anomalía sin impor-<br>tancia, si es que eran recordados. La confusión america-<br>na creó estas realidades imaginadas: Estados nacionales,<br>instituciones republicanas, ciudadanías comunes, sobe-<br>ranía popular, banderas e himnos nacionales, etc., así<br>como la liquidación de sus opuestos conceptuales: Im-<br>perios dinásticos, instituciones monárquicas, absolutis-<br>mos, sometimientos, noblezas heredadas, servidumbre,<br>ghettos, etc.</p>
+<p>121</p>
+<p><em>General e impreciso, si no falso</em></p>
+<p>&nbsp;</p>
+<p>La "ru-<br>sificación" de la población heterogénea de los subditos<br>del zar representaba así una fusión violenta, conscien-<br>te, de dos órdenes políticos opuestos, uno antiguo y otro<br>nuevo. (Aunque hay cierta analogía con la hispaniza-<br>ción de las Américas y las Filipinas, por ejemplo, subsiste<br>una diferencia fundamental. Los conquistadores cultu-<br>rales del imperio zarista de fines del siglo xix procedían<br>con un maquiavelismo consciente, mientras que sus an-<br>tecesores españoles del siglo xvi actuaban con un prag-<br>matismo cotidiano inconsciente. Y el proceso no era<br>para ellos en realidad una "hispanización" sino simple-<br>mente una conversión de paganos y salvajes.)</p>
+<p>127</p>
+<p><em>¿Es decir, está reconociendo por omisión que la primera 
+experiencia de nacionalización fue el imperio español, o al menos la 
+primera de "fusión entre la nación y el imperio" (129)? Esto puede ser 
+productivo en función de pensarlo como doble de la dicotomía realidad / 
+realidad alternativa, es decir, como nacionalismo oficial de los 
+imperios / nacionalismo ¿alternativo? de las colonias </em></p>
+<p>&nbsp;</p>
+<p><em>En 133 habla de los programas educativos como dispositivos 
+formadores de nación. Antes también citó creo que a Hobsbawm diciendo 
+que las unviersidades eran un actor muy importante en ese horizonte.</em></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>la idea de una república de<br>ciudadanos traída al mundo por las Américas</p>
+<p>191</p>
+<p>&nbsp;</p>
+<p>En un mundo en que la nación-Estado es la norma<br>predominante, todo esto significa que hoy pueden ima-<br>ginarse naciones sin ninguna comunidad lingüística,<br>no en el espíritu ingenuo de "nosotros los americanos",<br>sino por una conciencia general de lo que la historia mo-<br>derna ha demostrado que es posible.</p>
+<p>192</p>
+<p><em>¿cuál es ese espíritu ingenuo? Por otro lado, la americanidad no 
+se puede definir como comunidad lingüística en cuanto singularidad, pero
+ sí en cuanto unidad. Es decir, no todos los que hablan inglés son 
+usamericanos, ni todos los que hablan español son colombianos, pero 
+todos los usamericanos hablan inglés y todos los colombianos hablan 
+español.</em></p>
+<p>&nbsp;</p>
+<p>La "última oleada" de los nacio-<br>nalismos, en su mayor parte en los territorios colonia-<br>les de Asia y África, fue en su origen una reacción al<br>imperialismo mundial de nuevo estilo hecho posible por<br>los logros del capitalismo industrial. Como dijo Marx<br>en su estilo inimitable: "La necesidad de un mercado en<br>constante expansión para sus productos persigue a la<br>burguesía por toda la faz del planeta."</p>
+<p>197</p>
+<p><em>Habría que ver qué es lo que tiene de nuevo.</em></p>
+<p>&nbsp;</p>
+<p>Pero el capitalismo también ha ayudado —sobre todo por su disemi-<br>nación en forma impresa— a crear nacionalismos po-<br>pulares en Europa, basados en lenguas vernáculas, que<br>en grados diferentes socavaron el inveterado principio<br>dinástico y alentaron a toda dinastía que pudiera ha-<br>cerlo a que se naturalizase. A su vez, el nacionalismo<br>oficial —mezcla del nuevo principio nacional y de los<br>viejos principios dinásticos (el Imperio británico)— con-<br>dujo a lo que podríamos llamar, por conveniencia, la<br>"rusificación" de las colonias extraeuropeas.</p>
+<p>197-198</p>
+<p><em>Habría que ver hasta qué punto esa rusificación no puede ser definida también o más bien como españolización.</em></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><em>Más sobre el sacrificio (203) y el lenguaje como dispositivo de simultaneidad (204)</em></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>El hecho es que el nacionalismo piensa en términos<br>de los destinos históricos, mientras que el racismo sue-<br>ña con contaminaciones eternas, transmitidas desde el<br>principio de los tiempos mediante una sucesión inter-<br>minable de cópulas asquerosas: fuera de la historia. Los<br>negros son, gracias al sambenito invisible, negros para<br>siempre; los judíos, la. descendencia de Abraham, son<br>judíos para siempre, cualesquiera que sean los pasapor-<br>tes que lleven o las lenguas que hablen y lean. (En con-<br>secuencia, para los nazis el judío alemán siempre fue<br>un impostor.)</p>
+<p>210</p>
+<p><em>Argumentando la diferencia entre racismo y nacionalismo</em></p>
+<p>&nbsp;</p>
+<p>Los sueños del racismo tienen efectivamente su ori-<br>gen en ideologías de clase más que en la de nación: so-<br>bre todo en las pretensiones de divinidad de los gober-<br>nantes y de sangre "azul" o "blanca" y la "crianza" entre<br>las aristocracias. 17 No es sorprendente así que el padre putativo del racismo moderno no sea algún nacionalista<br>pequeño burgués sino Joseph Arthur, conde de Gobi-<br>neau. 18 Ni que, en general, el racismo y el antisemitismo<br>no se manifiesten a través de las fronteras nacionales<br>sino dentro de ellas. En otras palabras, no justifican<br>tanto las guerras extranjeras como la represión y la do-<br>minación internas.</p>
+<p>211</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><em>Creo que el "gótico tropical" (212-213) con que describe los 
+funcionarios del colonialismo tardío es perfectamente trasladable al 
+colonialismo americano, recordando por ejemplo las descripciones de 
+Picón Salas, en el capítulo de Proceso y formación que si mal no 
+recuerdo se llama "la abundancia barroca".</em></p>
+<p>&nbsp;&nbsp;</p>
+<p>Los mestizos mexicanos de<br>habla española no se dicen descendientes de los con-<br>quistadores castellanos, sino de los aztecas, mayas, tol-<br>tecas y zapotecas, arrasados a medias. Los patriotas re-<br>volucionarios uruguayos, siendo criollos, tomaron el<br>nombre de Túpac Amara, el último gran rebelde indí-<br>gena contra la opresión criolla, que murió bajo tor-<br>turas indecibles en 1781.</p>
+<p>217</p>
+<p>&nbsp;</p>
+<p><em>Vuelve sobre la idea de Hobsbawm de que el "capitalismo impreso" 
+de alguna forma suplió la inexistencia de un partido o movimiento 
+formados en el sentido moderno (219)</em></p>
+<p>&nbsp;</p>
+<p>El hecho de que los vietnamitas defiendan orgullosa-<br>mente un Viét Nam inventado en son de burla por un<br>dinasta manchú del siglo xix nos recuerda la afirma-<br>ción de Renán según la cual las naciones deben de ha-<br>ber "oublié bien des choses", pero también, paradóji-<br>camente, el poder imaginativo del nacionalismo.</p>
+<p>222</p>
+<p>&nbsp;</p>
+<p>Esto se aplica en gran medida al nacionalismo. El na-<br>cionalismo contemporáneo es el heredero de dos siglos<br>de cambio histórico. Por todas las razones que he trata-<br>do de exponer, los legados son en verdad polifacéticos,<br>ya que no incluyen sólo a San Martín y Garibaldi, sino<br>también a Uvarov y Macaulay. Como hemos visto, el<br>"nacionalismo oficial" fue desde el principio una políti-<br>ca consciente, de autoprotección, íntimamente ligada<br>a la conservación de los intereses dinástico-imperiales.<br>Pero una vez "allí, para que todos lo vean", podía copiar-<br>se como las reformas militares prusianas de principios<br>del siglo xix, y por la misma diversidad de sistemas<br>políticos y sociales. El único rasgo persistente de este estilo de nacionalismo era, y es, su naturaleza oficial, es<br>decir, algo que emana del Estado y sirve a los intereses<br>estatales ante todo.</p>
+<p>224</p>
+<p>&nbsp;</p>
+<p>A primera vista, esta<br>conclusión puede parecer sorprendente, ya que los Es-<br>tados coloniales en general fueron antinacionalistas, a<br>menudo en forma violenta. Pero si miramos más allá<br>de las ideologías coloniales y sus políticas hacia la gra-<br>mática en que, desde mediados del siglo XIX, se desple-<br>garon,
+ este linaje decididamente se vuelve más claro [que los nacionalismos de
+ las antiguas colonias no surgieron a imitación del modelo de la Europa 
+decimonónica sino a las imágenes del Estado colonial].</p>
+<p>Pocas cosas ponen más de relieve esta gramática que<br>tres instituciones del poder que, aunque inventadas an-<br>tes de mediar el siglo xix, cambiaron de forma y de fun-<br>ción cuando las zonas colonizadas entraron en la época<br>de la reproducción mecánica. Estas tres instituciones<br>fueron el censo, el mapa y el museo</p>
+<p>228</p>
+<p><em>Creo que se puede extrapolar este análisis a la Colombia de 
+Miranda, como especie de modelo a escala de esa experiencia, encontrando
+ primero algunas pistas de cómo funcionaban estas tres instituciones en 
+el primer régimen colonial y antes de la segunda fase de la reproducción
+ técnica (que Benjamin fecha en la litografía, no sé Anderson a qué 
+reproducción mecánica se refiere)</em></p>
+<p>&nbsp;</p>
+<p><em>El censo ( 229), el mapa (238) y el museo (249)</em></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>A fines del siglo xvin ha-<br>bía nada menos que 3 200 000 "blancos" (incluyendo a<br>no más de 150 000 peninsulares) dentro de la población<br>de 16 900 000 del imperio occidental de los Borbones<br>españoles.</p>
+<p>262</p>
+<p>&nbsp;</p>
+<p>Huelga decir que la "blancura" era una categoría jurídica que te-<br>nía una relación claramente tangencial con complejas realidades so-<br>ciales. Como lo dijo el propio libertador: "Nosotros somos los viles reto-<br>ños de los depredadores españoles que vinieron a América para sangrarla y<br>medrar con sus víctimas. Después, los retoños ilegítimos de estas uniones se<br>unieron a los retoños de los esclavos traídos del África." Las cursivas son mías.<br>Lynch, The Spanish-American Revolutions, p. 249. Debemos tener cui-<br>dado de no suponer nada "eternamente europeo" en este criollismo.<br>Recordar a todos aquellos devotos budista-singaleses Da Souza, esos<br>piadosos católicos-florineses Da Silva y esos cínicos católico-manile-<br>ños Soriano que desempeñaron papeles sociales, económicos y polí-<br>ticos nada problemáticos en los contemporáneos Ceilán, Indonesia y<br>Filipinas, nos ayudará a reconocer que, en las circunstancias apropia-<br>das, los europeos pudieron ser absorbidos poco a poco por culturas<br>no europeas.</p>
+<p>262</p>
+<p>&nbsp;</p>
+<p>la metrópoli imperial disponía de formidables apa-<br>ratos burocráticos e ideológicos que le permitieron, du-<br>rante muchos siglos, imponer su voluntad a los criollos.<br>(Cuando pensamos en los simples problemas logísticos<br>que intervenían, resulta impresionante la capacidad de<br>Londres y de Madrid para entablar las largas guerras<br>contrarrevolucionarias contra los colonos americanos<br>rebeldes.)</p>
+<p>263</p>
+<p><em>Esto sirve para pensarlo en función del mapa, el censo y el museo, justamente</em></p>
+<p>&nbsp;</p>
+<p>La novedad de todas estas condiciones queda sugeri-<br>da por el contraste que nos permite establecer con las<br>grandes migraciones chinas y árabes (casi contemporá-<br>neas) al sudeste de Asia y al este de África. Estas migra-<br>ciones rara vez fueron "planeadas" por alguna metró-<br>poli, y aún más rara vez produjeron unas relaciones<br>estables de subordinación.</p>
+<p>263</p>
+<p><em>Sobre los distintos tipos de migración. ¿Ese segundo tipo de migración no podría ser definido sencillamente como diáspora?</em></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Por otra parte, aunque<br>estas guerras causaron enormes sufrimientos y se carac-<br>terizaron por mucha barbarie, de manera extraña lo<br>que estaba enjuego era bastante poco. Ni en la Améri-<br>ca del Norte ni en la del Sur tenían los criollos que te-<br>mer el exterminio físico, o ser sometidos a la esclavitud<br>como ocurrió en otros muchos pueblos que se pusie-<br>ron en el camino del imperialismo europeo.</p>
+<p>266</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>La De-<br>claración de Independencia de 1776 no hace en abso-<br>luto ninguna referencia a Cristóbal Colón, o a Roanoke<br>o a los Padres Peregrinos, ni se plantean motivos para<br>justificar la independencia de alguna manera "históri-<br>ca", en el sentido de poner de relieve la antigüedad del<br>pueblo norteamericano.</p>
+<p>268</p>
+<p><em>Quizá aquí está la clave para encontrar los indicios de esa 
+separación, en una lectura comparada de las dos constituciones. Sería 
+como coherente con la toponimia, pues el valor de lo nuevo está asociado
+ a la autoría de Vespucci.</em></p>
+<p>&nbsp;</p>
+<p>En el último cuarto del siglo XV7H, tan sólo la Gran<br>Bretaña estaba fabricando entre 150 000 y 200 000 re-<br>lojes al año, muchos de ellos para la exportación. Y es<br>probable que la manufactura europea estuviese cerca<br>de los 500 000 relojes anuales. 17 Los periódicos publi-<br>cados eran, para entonces, una parte familiar de la civi-<br>lización urbana. Asimismo las novelas, con sus espec-<br>taculares posibilidades de representación de acciones<br>simultáneas en un tiempo vacío homogéneo. 18 La me-<br>dición cósmica que había hecho comprensibles nues-<br>tros emparejamientos transoceánicos sincrónicos esta-<br>ba dejando sentir, cada vez más, que entrañaban una<br>visión serial,</p>
+<blockquote>
+<p>269</p>
+</blockquote>
+<p><em>Interesante pensarlo en relación con el nacimiento de la 
+disciplina, por un lado, y también en relación con la preocupación por 
+el tiempo en el Delirio y en el Juramento</em></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Una vasta industria pedagógi-<br>ca funciona sin cesar para que jóvenes norteamerica-<br>nos recuerden/olviden las hostilidades de 1861-1865<br>como una gran guerra "civil" entre "hermanos" y no<br>—como brevemente fueron— entre dos naciones Esta-<br>dos. (Sin embargo, podemos estar seguros de que si la<br>Confederación hubiese logrado conservar su indepen-<br>dencia, esta "guerra civil" habría sido remplazada en la<br>memoria por algo nada fraternal.) Los libros de texto<br>de la historia inglesa ofrecen el divertido espectáculo<br>de un gran Padre Fundador a quien todo niño de es-<br>cuela debe llamar Guillermo el Conquistador. A este niñno se le dice que Guillermo no hablaba inglés, y que<br>en realidad no habría podido hacerlo, puesto que la len-<br>gua inglesa aún no existía en su época; y tampoco se le<br>dice que era "conquistador ... ¿de qué?" La única res-<br>puesta inteligible moderna tendría que ser "Conquista-<br>dor de los ingleses", lo que habría convertido al viejo<br>depredador normando en un precursor, más triunfante,<br>de Napoleón y de Hitler. Por tanto, "el Conquistador"<br>actúa como el mismo tipo de elipsis que "la Saint-Bar-<br>thélemy" para recordarnos algo que inmediatamente re-<br>sulta obligatorio olvidar.</p>
+<p><em>Estos ejemplos nos sirven de contraparte para dar cuenta del 
+alcance potencial del proyecto pedagógico rodrigueano, por un lado 
+--porque el autor no da muchas pistas del papel de la pedagogía como 
+agente articulador de la simultaneidad y la comunidad imaginada-- y 
+también para pensar el lugar que ocupa el proyecto colombiano en los 
+imaginarios de nación de los países que formaron parte de esa 
+confederación, o que se vieron a sí mismos como parte de una sola 
+nación, pero que vive en la memoria o en el discurso como algo que se 
+recuerda solo para volver a ser olvidado.</em></p>
+<p><em>278-279</em></p>
+<p>&nbsp;</p>
+<p>En 1840, en mitad de una brutal guerra de ocho<br>años contra los seminólas de Florida (y cuando Miche-<br>let estaba recordando su Edipo), James Fenimore Coo-<br>per publicó The Pathfinder, cuarta de sus cinco narra-<br>ciones, Leatherstocking Tales, sumamente populares. En<br>esta novela desempeña un papel central (y en todas<br>menos en la primera de sus compañeras) lo que Leslie<br>Fiedler llamó "el amor austero, casi inexpresado pero<br>indiscutido" que une al hombre "blanco" de los bosques<br>Natty Bumppo y al noble jefe delaware Chingachgook<br>(¡"Chicago"!).</p>
+<p>282</p>
+<p>&nbsp;</p>
+<p>Los nexos entre varones en una sociedad protestante que<br>desde el principio había prohibido terminantemente la exogamia,<br>corren paralelos a los "amores sagrados" entre hombre y mujer en la<br>literatura nacionalista de la América Latina, donde el catolicismo sí<br>permitió el desarrollo de una poderosa población mestiza. (Resulta<br>revelador que la lengua inglesa haya tenido que tomar la palabra<br>"mestizo" de la española).</p>
+<p>282</p>
+<p>&nbsp;</p>
+<p>These striking nineteenth-century imaginings of fraternity, emerging 
+‘naturally’ in a society fractured by the most violent racial, class and
+ regional antagonisms, show as clearly as anything else that nationalism
+ in the age of Michelet and Renan represented a new form ofconsciousness
+ – a consciousness that arose when it was no longer possible to 
+experience the nation as new, at the wave-top moment of rupture.</p>
+<p><em>If there's some kind of epochality for nationalism dated by 
+Michelet and Renan, it is interesting to notice that the Colombian 
+movement ocurred before that. And therefore, it's may be in the new 
+theorists of the Other America where we could find the a Hispanic 
+American equivalent. However, in the Colombian project there should be a
+ different kind of nationalism?</em></p>
+<p>n/p</p>
+<p>&nbsp;</p>
+<p>La fotografía, buena hija de la época de la reproducción mecánica, sólo es la más perentoria de<br>una enorme acumulación moderna de testimonios do-<br>cumentales (certificados de nacimiento, diarios, tarjetas,<br>cartas, historiales médicos y similares) que registra una<br>cierta aparente continuidad y simultáneamente subraya<br>su pérdida de la memoria. De esta extrañeza surge una<br>percepción de persona, de identidad (sí, usted y ese bebé<br>desnudo son idénticos) que, al no poder ser "recorda-<br>da", tiene que ser narrada. Contra la demostración que<br>nos da la biología de que toda célula del cuerpo huma-<br>no es remplazada cada siete años, las narraciones de la<br>autobiografía y de la biografía inundan los mercados de<br>la prensa del capitalismo, año tras año.</p>
+<p>284</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+					</li>
+					<li id="item_9WJE7JN8">
+<div><p>#Bochinche</p>
+<p>En conclusión se ha sostenido que desde mediados<br>del siglo xix surgió lo que Seton-Watson llama "naciona-<br>lismos oficiales" en Europa. Estos nacionalismos fueron<br>históricamente "imposibles" una vez que aparecieron los<br>nacionalismos lingüísticos populares, porque en el fondo eran la respuesta de los grupos de poder —primor-<br>dial pero no exclusivamente dinásticos ni aristocráti-<br>cos— amenazados con la exclusión o la marginación<br>en las comunidades populares imaginadas (...) Tales nacionalismos oficiales eran políti-<br>cas conservadoras, por no decir reaccionarias, adapta-<br>das del modelo de los nacionalismos populares, en gran<br>medida espontáneos, que los precedieron</p>
+<p>159</p>
+<p><em>Es decir, en Europa tendríamos una oposición entre nacionalismos 
+oficiales y nacionalismos populares. Eso le da sentido a lo que dice en 
+el capítulo de los pioneros criollos sobre cómo el nacionalismo criollo 
+apuntaba a conjurar lo que a brocha gorda podríamos llamar los 
+potenciales nacionalismos populares. Aquí la analogía es simétrica con 
+la dinámica de hegemonía-contrahegemonía-anomia como la describe 
+Williams.</em></p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Las dos colombias y la conexión mexicana</li>
+				</ul>
+					</li>
+					<li id="item_QDV5KAT6">
+<div><p>#Notes from Spanish edition</p>
+<p>&nbsp;</p>
+<p>Pero si las lenguas sagradas silenciosas eran los me-<br>dios con los cuales se imaginaron las grandes comuni-<br>dades globales del pasado, la realidad de tales aparicio-<br>nes dependía de una idea en gran medida extraña a la<br>mente occidental contemporánea: el carácter no arbi-<br>trario del signo.</p>
+<p>33</p>
+<p><em>Esto está un poco off-topic por ahora, pero será importante 
+pensarlo respecto a la inquietud, casi ansiedad, de Rodríguez frente a 
+la cualidad arbitraria del signo como impedimento para la formación de 
+una comunidad imaginada</em></p>
+<p>&nbsp;</p>
+<p>T a m b i é n d e b e m o s recordar q u e estos antiguos esta-<br>dos m o n á r q u i c o s se e x p a n d i e r o n n o sólo p o r la g u e r r a<br>sino también p o r la política sexual, d e u n a clase muy di-<br>ferente a la q u e a h o r a se practica. A través del principio<br>general d e la verticalidad, los m a t r i m o n i o s dinásticos<br>u n í a n a poblaciones diversas bajo nuevos ápices. Para-<br>digmática e n este sentido era la Casa d e H a b s b u r g o .</p>
+<p>40</p>
+<p><em>En este sentido, a lo mejor la lujuria y la promiscuidad de 
+Miranda pueden leerse en coherencia con el nuevo orden. Su sexualidad 
+desbordante era una forma de subversión antidinástica.</em></p>
+<p>&nbsp;</p>
+<p>Lo que ha<br>llegado a tomar el lugar de la concepción medieval de<br>la simultaneidad a lo largo del tiempo es —como dice<br>Benjamín— una idea del "tiempo homogéneo, vacío",<br>donde la simultaneidad es, por decirlo así, transversa,<br>de tiempo cruzado, no marcada por la prefiguración y<br>la realización , sino por la coincidencia temporal, y me-<br>dida por el reloj y el calendario.</p>
+<p>46</p>
+<p><em>Interesante pensar esto en relación con la disciplina 
+foucaultiana y la maquinaria anti-impropiedad que diseña/proyecta 
+Rodríguez. También las nociones benjaminianas (citado por Anderson 46) 
+sobre la novela y el periódico</em> <em>pueden pensarse en relación con 
+la correspondencia de Miranda, el Correo del Orinoco, la Colombeia, la 
+carta de Jamaica y otros productos en tanto intención, pero con las 
+limitaciones técnicas y culturales que impusieron el retraso de la 
+llegada de la imprenta. También aquí hay algo importante que pensar en 
+relación con los peligros asociados a esa noción que el reino dinástico 
+conjuraba o intentaba conjurar con la restricción de la imprenta y de 
+las novelas en hispanoamérica. De todos modos habría que revisar las 
+otras fechas de llegada de la imprenta a otros países 
+hispanoamericanos.Como punto de comparación, las cifras europeas citadas
+ por Anderson (58) hablan de entre 150 y 200 millones de volúmenes 
+impresos.<br></em></p>
+<p><em>Por último, es interesante pensar cómo esa conjura estaba 
+asociada al impedimento del surgimiento de una "realidad alternativa". 
+Que en la noción de Piglia comienza en el paradigma jacobino, pero uno 
+podría rastrear más allá, en las fundaciones americanistas de la utopía 
+moderna. Precisamente la noción de Nuevo Mundo era una realidad 
+alternativa. Aquí sería interesante revisar la noción de Moore en </em>Capitalism in the Web of Life.</p>
+<p>&nbsp;</p>
+<p><em>El análisis de la simultaneidad narrativa en </em>Noli Me Tangere<em> y </em>Hnagdaanang Buhay ni Florante at ni Laura sa Cahariang Albania <em>(49-51) se puede poner en relación con el relato en futuro que hace Miranda de la revolución de Independencia</em><em>. </em></p>
+<p>&nbsp;</p>
+<p><em>&nbsp;</em></p>
+<p>&nbsp;</p>
+<p>¿Por qué se yuxtapo-<br>nen estos eventos [en la portada del <em>New York Times</em>]? ¿Qué los conecta entre sí? No es el<br>mero capricho. Sin embargo, es obvio que en su mayor<br>parte ocurren independientemente, sin que los actores<br>estén conscientes de la existencia de los otros o de sus<br>intenciones. La arbitrariedad de su inclusión y yuxta-<br>posición (una edición posterior sustituirá a Mitterrand<br>por un juego de béisbol) revela que la conexión exis-<br>tente entre ellos es imaginada (...) Esta conexión imaginada deriva de dos fuentes indi-<br>rectamente relacionadas [el tiempo y el mercado] (...) El formato novelístico del periódico les<br>asegura que el "personaje" Mali se encuentra por allí<br>en alguna parte, se mueve silenciosamente, esperando<br>su siguiente reaparición en la trama.</p>
+<p>57-58</p>
+<p>&nbsp;</p>
+<p>Antes de la época de la imprenta,<br>Roma ganaba fácilmente todas las guerras libradas en<br>contra de la herejía en Europa occidental porque siem-<br>pre tenía mejores líneas de comunicación interna que<br>sus enemigos. Pero en 1517, cuando Martín Lutero cla-<br>vó sus tesis en las puertas de la catedral de Wittenberg,<br>tales tesis estaban impresas en una traducción alema-<br>na, y "en el término de 15 días [habían sido] vistas en<br>todos los rincones del país". 8 En los dos decenios de<br>1520 a 1540, se publicaron en alemán tres veces más<br>libros que en el periodo de 1500 a 1520, lo que consti-<br>tuye una transformación asombrosa en la que Lutero<br>ocupaba un lugar indiscutiblemente central</p>
+<p>66</p>
+<p><em>Capaz podemos pensar la intentona de 1806 como un intento de 
+emular ese mismo principio. La presencia de las "dos imprentas 
+completas" en la lista de materiales para hacer la revolución da cuenta 
+de cómo el ámbito textual era considerado el dispositivo nodal para la 
+construcción de la "realidad alternativa"</em></p>
+<p>&nbsp;</p>
+<p>el protestantismo estaba siempre fundamentalmente a<br>la ofensiva, justo porque sabía usar el mercado en ex-<br>pansión de impresiones en lenguas vernáculas, creado<br>por el capitalismo, mientras que la Contrarreforma de-<br>fendía la ciudadela del latín. El emblema era aquí el<br>Index Librorum Prohibitorum del Vaticano —sin contra-<br>partida protestante—, un catálogo nuevo que era nece-<br>sario por el gran volumen de la subversión impresa.</p>
+<p>67</p>
+<p><em>Quizá puede encontrarse un paradigma más o menos nítido de 
+realidad y realidad alternativa a partir del índice de libros 
+prohibidos. El ensayo de Consuelo Valera recuerda que la colección de 
+libros de Miranda parecía hecha a drede a contraparte del índice de 
+libros prohibidos por la Inquisición. Las listas de libros de Colombia, y
+ Colombia en su conjunto, es un índice en negativo. O dicho de otra 
+forma: si la realidad o los límites de la realidad, son un índice, la 
+realidad alternativa y sus límites son un índice también.</em></p>
+<p>&nbsp;</p>
+<p>En la Europa an-<br>terior a la imprenta, y por supuesto en el resto del mun-<br>do, la diversidad de las lenguas habladas, esas lenguas<br>que son para quienes las hablan la trama y la urdimbre<br>de sus vidas, era inmensa; tan inmensa, en efecto, que si<br>el capitalismo impreso hubiese tratado de explotar cada<br>mercado potencial de lengua vernácula habría conser-<br>vado minúsculas proporciones</p>
+<p>71</p>
+<p><em>To ehich extent that was the same way in Hispanic America? Did 
+the school have a broader impact in the linguistic unification 
+than&nbsp; literature. How literate was Europe before 19th Century?</em></p>
+<p>&nbsp;</p>
+<p>Podemos resumir las conclusiones que pueden sacarse<br>de los argumentos expuestos hasta ahora diciendo que<br>la convergencia del capitalismo y la tecnología impresa<br>en la fatal diversidad del lenguaje humano hizo posi-<br>ble una nueva forma de comunidad imaginada, que en<br>su morfología básica preparó el escenario para la na-<br>ción moderna.</p>
+<p>75</p>
+<p><em>Hay que volver a decir que la experiencia suramericana excede 
+esta explicación. O parece excederla. Quizá podría hablarse de esa 
+convergencia entre capitalismo y tecnología impresa, experimentada desde
+ un lugar periférico, análogo al lugar de la periferia en las relaciones
+ de producción y consumo. Anderson dice que los estados nacionales son 
+--supongo que se refiere al presente de 1985-- ejemplos conspicuos de 
+naciones modernas "de formación propia" con"'lenguas nacionales 
+impresas'" (75), a diferencia de otras en las que "sólo una pequeña 
+fracción de la población 'usa' la lengua nacional en la conversación o 
+por escrito" en "antiguos Estados coloniales, sobre todo en África" (76)<br></em></p>
+<p><em>Es decir, la convergencia se da en un vértice donde suramérica 
+queda como exportador de materias primas y consumidor de productos 
+refinados. Es decir, estaríamos un poco moviéndonos al principio de Paz 
+Castillo que desarrolla Richard Rosa. El capitalismo y la tecnología 
+impresa le asignan a América el no-lugar de lo especulable. Incluso la 
+¿resistencia? ¿rebeldía? ¿el carácter rebelde y secesionista? de la 
+esclavitud es especulado por la ideología liberal romántica, como expone
+ Buck-Morris. Esto tendría una cristalización paradigmática en la 
+circulación de la carta de Santángel, del </em>Novus Mundus<em> y de </em>Utopía<em>, y una formulación ¿poética? ¿barroca? ¿precisa? en la idea de Úslar Pietri en </em>"El mito de América"<em>,
+ que dice algo así como que Europa encontró en América un espejo para 
+ver sus propios vicios. Es decir, la experiencia colonial entra en la 
+sombra donde se cruza ese vértice entre capitalismo impreso y 
+tecnología, pero es la condición de posibilidad para su cruce. Es decir,
+ podría ser más bien la convergencia entre capitalismo, tecnología 
+impresa y colonialidad, o cómo se produce esta relación. Cosas para 
+pensar en el futuro sobre esto:</em><em></em></p>
+<ul>
+<li><em>Aquí la obsesión mirandina por Colón es muy siginificativa, 
+porque Colón experimenta su propio encubrimiento, el encubrimiento de su
+ propia hazaña, por el avance del capitalismo impreso. </em></li>
+<li><em>El topónimo humano continental de alguna forma es un paradigma del triunfo del capitalismo impreso. </em></li>
+<li><em>Y yéndonse un poco al carajo, quizá más para un post, un cómic o una forma de expresión menos solemne, los billetes impresos by </em>that<em> America como punto referencial universal del valor, sería el punto cumbre de expresión explícita de esa civilización</em></li>
+</ul>
+<p>&nbsp;</p>
+<p>Para explicar la discontinuidad<br>en la conexión entre las lenguas impresas, las concien-<br>cias nacionales y los Estados nacionales, es necesario<br>examinar el gran conjunto de nuevas entidades políti-<br>cas que surgió en el hemisferio occidental entre 1776 y<br>1838; todas las cuales se definieron conscientemente a<br>sí mismas como naciones y, con la interesante excepción<br>de Brasil, como repúblicas (no dinásticas)</p>
+<p>76</p>
+<p>&nbsp;</p>
+<p>En 1789, cuando Madrid<br>promulgó una nueva ley para los esclavos, más huma-<br>nitaria, en la que se especificaba detalladamente los de-<br>rechos y las obligaciones de amos y esclavos, "los crio-<br>llos rechazaron la intervención estatal alegando que<br>los esclavos eran propensos al vicio y la independencia<br>[!], y eran esenciales para la economía. En Venezuela<br>—en realidad por todo el Caribe español—, los hacen-<br>dados se opusieron a la ley y buscaron su suspensión<br>en 1794". 8 El propio Libertador Bolívar opinó en algu-<br>na ocasión que una rebelión negra era "mil veces peor<br>que una invasión española".</p>
+<p>79</p>
+<p>&nbsp;</p>
+<p><em>¿Cuál fue el factor de cohesión o el trigger que dio lugar a la 
+formación de los Estados criollos, si está descartada la lengua, en el 
+caso de norte y sur América, y la tesis de Narin sobre el bautismo 
+político de las clases bajas (77), que según Anderson no solo no fue 
+característico de estos movimientos de independencia, sino que incluso 
+fueron motivados para conjurarlos, en México, Perú y Venezuela (78), y 
+mucho menos el capitalismo impreso, que no había llegado a una población
+ casi totalmente analfabeta? </em></p>
+<p>&nbsp;</p>
+<p>¿Por qué produjeron<br>tales provincias coloniales, que de ordinario albergaban<br>grandes poblaciones de oprimidos que no hablaban es-<br>pañol, criollos que conscientemente redefinían a estas<br>poblaciones como connacionales?</p>
+<p>81</p>
+<p>&nbsp;</p>
+<p>Pero la agresividad de Madrid y el espíritu del libera-<br>lismo, siendo fundamentales para toda comprensión<br>del impulso de resistencia en las Américas españolas,<br>no explican por sí mismos el hecho de que entidades<br>como Chile, Venezuela y México fuesen posibles en el<br>terreno emocional y viables en el terreno político (...) En última instancia, tampoco explican los sa-<br>crificios que efectivamente se hicieron.</p>
+<p>83</p>
+<p>&nbsp;</p>
+<p>(En<br>la época colonial, el viaje por mar de Buenos Aires a Aca-<br>pulco tardaba cuatro meses, y el viaje de regreso, más<br>aún; el viaje por tierra de Buenos Aires a Santiago du-<br>raba normalmente dos meses, y a Cartagena nueve.)</p>
+<p>84</p>
+<p>&nbsp;</p>
+<p>Sin embargo, por sí mismas, las zonas de mer-<br>cado, las zonas "naturales" geográficas o político-admi-<br>nistrativas, no crean adeptos. ¿Quién moriría gustoso<br>por el Comecon o por la CEE?</p>
+<p>85</p>
+<p>&nbsp;</p>
+<p>Para nuestros propósitos<br>actuales, el viaje por excelencia es la peregrinación. No<br>es simplemente que en la mente de cristianos, musul-<br>manes o hindúes fuesen las ciudades de Roma, La Meca<br>o Benarés los centros de geografías sagradas, sino que<br>su centralidad se experimentaba y "realizaba" (en el sen-<br>tido teatral) por el paso constante de los peregrinos que<br>iban a ellas desde localidades remotas y sin ninguna otra<br>relación.</p>
+<p>86</p>
+<p>&nbsp;</p>
+<p>En realidad, había<br>siempre un doble aspecto en la coreografía de las gran-<br>des peregrinaciones religiosas [a la Meca] una vasta horda de anal-<br>fabetos hablantes de lenguas vernáculas proveía la den-<br>sa realidad física del pasaje ceremonial, mientras que<br>un pequeño segmento de adeptos letrados bilingües,<br>provenientes de cada una de las comunidades vernácu-<br>las, realizaba los ritos unificadores, interpretando para<br>sus respectivos seguidores el significado de su movimiento colectivo. 28 En una época anterior a la impren-<br>ta, la realidad de la comunidad religiosa imaginada de-<br>pendía profundamente de innumerables e incesantes<br>viajes</p>
+<p>87</p>
+<p>&nbsp;</p>
+<p>de los 170 virreyes que habían gobernado en la Améri-<br>ca española antes de 1813, sólo cuatro eran criollos. Es-<br>tas cifras son más sorprendentes aún si advertimos que,<br>en 1800, menos de 5% de los 3 200 000 criollos "blan-<br>cos" del Imperio occidental (impuestos sobre cerca de<br>13 700 000 indígenas) eran españoles peninsulares.</p>
+<p>90</p>
+<p>&nbsp;</p>
+<p>Si los funcionarios<br>peninsulares podían viajar de Zaragoza a Cartagena,<br>Madrid, Lima y de nuevo a Madrid, el criollo "mexica-<br>no" o "chileno" servía únicamente en los territorios de<br>México o del Chile coloniales: su movimiento lateral<br>estaba tan constreñido como su ascenso vertical.</p>
+<p>91</p>
+<p>&nbsp;</p>
+<p>Aunque hubiese nacido a la<br>semana de la migración de su padre, el accidente del<br>nacimiento en las Américas lo condenaba a la subordinación, aunque en términos de lengua, religión, ascen-<br>dencia o maneras fuese en gran medida indistinguible<br>del español peninsular.</p>
+<p>91 - 92</p>
+<p>&nbsp;</p>
+<p>¡Pero cuan irracional<br>debe de haber parecido su exclusión! Sin embargo, ocul-<br>ta en la irracionalidad se encontraba esta lógica: nacido<br>en las Américas, no podía ser un español auténtico; «g»,<br>nacido en España, el peninsular no podía ser un ame-<br>ncano autentico.</p>
+<p>92</p>
+<p>&nbsp;</p>
+<p>De igual modo, los franciscanos<br>portugueses de Goa se opusieron resueltamente a la ad-<br>misión de criollos a la orden alegando que "aunque hu-<br>biesen nacido de padres blancos puros, han sido ama-<br>mantados por ayas indias en su infancia, de modo que<br>su sangre se ha contaminado para toda la vida".</p>
+<p>94. Cita a Charles R. Boxer, The Portuguese Seaborne Empire, 1415-1825, p. 266.</p>
+<p>&nbsp;</p>
+<p>A partir de ese punto se obtenía muy fá-<br>cilmente la deducción conveniente, vulgar, de que los<br>criollos, nacidos en un hemisferio salvaje, eran por na-<br>turaleza diferentes de los metropolitanos e inferiores á<br>ellos, y por ende no estaban capacitados para ocupar<br>altos puestos. 44</p>
+<p>95</p>
+<p>&nbsp;</p>
+<p>El uso de la imprenta se extendió muy pronto a la<br>Nueva España, pero durante dos siglos permaneció bajo<br>el control estricto de la Corona y la Iglesia. Todavía a<br>fines del siglo xvii sólo había imprentas en la ciudad de<br>México y en Lima, y su producción era casi exclusiva-<br>mente eclesiástica. En la Norteamérica protestante casi<br>no hubo ninguna imprenta en ese siglo. En el curso del<br>siglo XVIII, sin embargo, ocurrió una virtual revolución.<br>Entre 1691 y 1820 se publicaron no menos de 2 120 "pe-<br>riódicos", 461 de los cuales sobrevivieron más de 10<br>anos.</p>
+<p>96</p>
+<p><em>Anderson habla aquí de la figura de Franklin, y la importancia 
+del periódico, en especial a partir de su alianza con el servicio de 
+correspondencia</em></p>
+<p>&nbsp;</p>
+<p>De este modo, la oficina del impresor surgió<br>como la clave de las comunicaciones norteamericanas<br>y la vida intelectual comunitaria. En la América espa-<br>ñola ocurrieron hechos similares, aunque en forma más<br>lenta e intermitente, en la segunda mitad del siglo xvm,<br>que dieron lugar a las primeras imprentas locales.</p>
+<p>97. Dice esto basado en Franco, Jean, An Introduction to Spanish-American Litera-<br>ture, Cambridge University Press, Cambridge, 1969</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Las primeras revistas contenían —aparte de noticias<br>acerca de la metrópoli— noticias comerciales (cuándo<br>llegarían y zarparían los barcos, cuáles eran los precios<br>de ciertas mercancías en ciertos puertos), además de los<br>nombramientos políticos coloniales, los matrimonios de<br>los ricos, etc. En otras palabras, lo que reunía en la mis-<br>ma página este matrimonio con aquel barco, este precio<br>con aquel obispo, era la estructura misma de la admi-<br>nistración colonial y el propio sistema de mercado. En<br>esta forma, el periódico de Caracas creó, en forma ente-<br>ramente natural y aun apolítica, una comunidad imagi-<br>nada entre un conjunto específico de lectores a quienes<br>interesaban estos barcos, bodas, obispos y precios. Con<br>el tiempo, por supuesto, era de esperarse que intervinie-<br>ran elementos políticos.</p>
+<p>97</p>
+<p><em>No entiendo a qué se refiere porque la imprenta llegó a Venezuela en 1808 según recuerdo</em></p>
+<p>&nbsp;</p>
+<p>La extensión in-<br>mensa del Imperio hispanoamericano, y el aislamiento<br>de las partes que lo formaban, hacían difícil imaginar<br>tal simultaneidad. 50 Los criollos mexicanos podrían en-<br>terarse de los acontecimientos de Buenos Aires varios<br>meses más tarde, pero lo harían por medio de periódi-<br>cos mexicanos, no del Río de la Plata; y tales hechos apa-<br>recerían como "similares" a los sucesos de México, no<br>como "parte" de ellos.</p>
+<p>99</p>
+<p><em>Si esto fuera verdad, la labor de Miranda sería fundamental y 
+fundacional, pero en verdad las fuentes que muestra son muy precarias</em></p>
+<p>&nbsp;</p>
+<p>Los criollos protestantes de habla inglesa, en el Nor-<br>te, estaban mucho más favorablemente situados para la<br>realización de la idea de "América", y en efecto logra-<br>ron apropiarse finalmente el gentilicio común de "ame-<br>ricanos". Las Trece Colonias originales abarcaban un te-<br>rritorio menor que el de Venezuela, y apenas la tercera parte de Argentina. 51 Unidas en lo geográfico, sus cen-<br>tros de mercado en Boston, Nueva York y Filadelfía eran<br>fácilmente accesibles entre sí, y sus poblaciones estaban<br>un tanto unidas por la imprenta y el comercio. Los "Es-<br>tados Unidos" pudieron multiplicar poco a poco el nú-<br>mero de sus habitantes durante los siguientes 183 años,<br>a medida que las poblaciones antiguas y las nuevas<br>avanzaban hacia el Oeste dejando atrás el antiguo nú-<br>cleo de la costa oriental.<em><br></em></p>
+<p>100</p>
+<p>&nbsp;</p>
+<p>. Lo<br>que estoy proponiendo es que ni el interés económico,<br>ni el liberalismo o la Ilustración, podrían haber creado<br>por sí solos la clase o la forma de la comunidad imagina-<br>da que habrá de defenderse contra las depredaciones<br>de estos regímenes; dicho de otro modo, ninguno de es-<br>tos conceptos proveyó el marco de una nueva concien-<br>cia —la periferia de una imagen que apenas se distin-<br>gue— por oposición a los objetos centrales de su agrado<br>o aversión. 5 Al realizar esta tarea específica, los funcio-<br>narios criollos peregrinos y los impresores criollos pro-<br>vinciales desempeñaron un papel histórico decisivo.</p>
+<p>101</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Colombism</li>
+				</ul>
+					</li>
+					<li id="item_T6EWVDAK">
+<div><p><em>##Olvido y recuerdo<br></em></p>
+<p><em>La cita completa de Rénan:</em></p>
+<blockquote>
+<p><em>Or, l'essence d'une nation est que tous les individus aient<br>beaucoup de choses en commun et aussi que tous aient ou-<br>blié bien des choses [...]. Tout citoyen francais doit avoirou-<br>btiéla Saint-Barthélemy, les masacres du Midi au xm e siécle.</em></p>
+</blockquote>
+<p>277</p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>El concealment del colombismo en el latinoamericanismo modernista</li>
+				</ul>
+					</li>
+					<li id="item_QCKU84UI">
+<div><p>Aunque hubiese nacido a la<br>semana de la migración de su padre, el accidente del<br>nacimiento en las Américas lo condenaba a la subordinación, aunque en términos de lengua, religión, ascen-<br>dencia o maneras fuese en gran medida indistinguible<br>del español peninsular</p>
+<p>91-92</p></div>
+					</li>
+					<li id="item_ALBPWRNQ">
+<div><p>Como se ha subrayado repe-<br>tidas veces, el nacionalismo oficial fue típicamente una<br>respuesta de grupos dinásticos y aristocráticos —clases<br>altas— amenazados por el nacionalismo vernáculo po-<br>pular. El racismo colonial fue un elemento importante<br>de esa concepción del "Imperio" que trataba de combi-<br>nar la legitimidad dinástica con la comunidad nacional. Lo hizo por un principio generalizador de superiori-<br>dad innata, heredada, en el que su propia posición in-<br>terna la basaba (aunque fuera inestable) en la vastedad<br>de las posesiones de ultramar, transmitiendo en forma<br>encubierta (o no tanto) la idea de que si los lores ingle-<br>ses, por ejemplo, eran naturalmente superiores a otros<br>ingleses, ello no importaba: estos otros ingleses no eran<br>menos superiores a los subditos nativos. En efecto, nos<br>vemos tentados a sostener que la existencia de imperios<br>coloniales tardíos servía incluso para apuntalar los bas-<br>tiones aristocráticos internos, ya que parecían confirmar<br>en un escenario mundial y moderno antiguas concep-<br>ciones de poder y privilegio.</p>
+<p>211</p>
+<p><em>Todavía no tengo muy claro cómo me sirve esto, pero creo que la 
+clave está en continuar la reflexión analógica sobre el pensamiento 
+criollo del siglo XIX y lo que provocadoramente podría llamarse 
+pensamiento criollo del siglo XX, es decir, Derrida, Fanon, Cesaire, 
+Camus</em>...<em> La especie media</em></p></div>
+					</li>
+					<li id="item_8WBMKJYA">
+<div><p>Es imaginada porque aun los miembros de la nación<br>más pequeña no conocerán jamás a la mayoría de sus<br>compatriotas, no los verán ni oirán siquiera hablar de<br>ellos, pero en la mente de cada uno vive la imagen de su<br>comunión.</p>
+<p>(23 spanish Edition)</p>
+<p>La nación se imagina limitada porque incluso la ma-yor de ellas, que alberga tal vez a mil millones de seres<br>humanos vivos, tiene fronteras finitas, aunque elásticas,<br>más allá de las cuales se encuentran otras naciones</p>
+<p>&nbsp;</p>
+<p>Si se concede general-<br>mente que los estados nacionales son "nuevos" e "his-<br>tóricos", las naciones a las que dan una expresión polí-<br>tica presumen siempre de un pasado inmemorial, 4 y<br>miran un futuro ilimitado, lo que es aún más impor-<br>tante. La magia del nacionalismo es la conversión del<br>azar en destino.</p>
+<p>29</p>
+<p>&nbsp;</p>
+<p><em>En la experiencia criolla esto ocurre de una manera peculiar, 
+porque la legalidad que funda lo criollo, lo funda como negación, como 
+límite (ver Carpentier). Es decir, esa gravedad y ese peso de lo 
+destinado son impresos por el "reino dinástico"</em></p></div>
+					</li>
+					<li id="item_9XSVWKIB">
+<div><p>Estas fuerzas<br>combinadas generaron los sistemas escolares "rusifi-<br>cantes" que en parte trataban de producir los cuadros<br>subalternos requeridos por las burocracias estatales y<br>corporativas. <strong>Estos sistemas escolares, centralizados y es-</strong><br><strong>tandarizados, crearon nuevas peregrinaciones que típi-</strong><br><strong>camente tenían sus Romas en las diversas capitales co-</strong><br><strong>loniales</strong>, porque las naciones ocultas en el corazón de<br>los imperios no permitían mayor ascenso interno. De or-<br>dinario, pero no siempre, estas peregrinaciones educa-<br>tivas se imitaban o reproducían en la esfera administrati-<br>va. <strong>La interconexión entre las peregrinaciones educativas</strong><br><strong>particulares y las administrativas dio la base territorial</strong><br><strong>necesaria para nuevas "comunidades imaginadas" en las</strong><br><strong>que los "nativos" podrían llegar a verse como "nacio-</strong><br><strong>nales"</strong>. La expansión del Estado colonial que, por decir-<br>lo de algún modo, invitaba a los "nativos" a las escuelas<br>y las oficinas, y del capitalismo colonial que, por decir-<br>lo así, los excluía de las juntas de consejo, significaba<br>que, en un grado sin precedente, los principales voceros del nacionalismo colonial inicial eran intelectuales<br>solitarios, bilingües, independientes de las poderosas<br>burguesías locales (...) <strong>En variables combinaciones, las lec-</strong><br><strong>ciones del nacionalismo criollo, vernáculo y oficial se</strong><br><strong>copiaron, adaptaron y mejoraron.</strong> Finalmente, en vir-<br>tud de que el capitalismo transformaba con rapidez cre-<br>ciente los medios de la comunicación física e intelectual,<br>las intelligentsias encontraron procedimientos para evi-<br>tar los medios impresos en la propagación de la comu-<br>nidad imaginada, no sólo entre las masas analfabetas<br>sino incluso entre las masas instruidas que leían lenguas<br>diferentes.</p>
+<p>199</p>
+<p><em>Habría que ver cómo operaban estas peregrinaciones educativas en 
+la sociedad criolla. En todo caso, el concepto sirve para pensar cómo 
+imaginaba Rodríguez el proyecto de población y común sentir muy ligado 
+al desplazamiento y la peregrinación, que se asocia con mucha fuerza a 
+su propio desplazamiento. Aquí hay unas intuiciones importantes en 
+Lezama a las que quizá valga la pena echarles un vistazo.</em></p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Colonizar el país con sus propios habitantes</li>
+				</ul>
+					</li>
+					<li id="item_ATJFZK4V">
+<div><p>Vista como una fatalidad histórica y como una comu-<br>nidad imaginada mediante la lengua, la nación se pre-<br>senta simultáneamente abierta y cerrada. Esta paradoja<br>se ilustra bien en los cambiantes ritmos de estos versos<br>famosos sobre la muerte de John Moore durante la<br>batalla de La Corana:</p>
+<p>205</p>
+<p><em>No me queda tan claro qué quiere decir esto último, pero lo que 
+propone con el poema es que a pesar de estar muy afirmado en la 
+particularidad de la lengua inglesa, su resonancia podría ser escuchada 
+por no hablantes, incluso los descendientes de los "enemigos" franceses y
+ españoles de Moore. Otro <strong>ejemplo interesante para ponerlo en 
+relación por ejemplo con el Juramento en el Monte Sacro, es un párrafo 
+de Thomas Browne en el que resume "en un par de oraciones la extensión y
+ la profundidad de la historia del hombre [sic]"</strong> en lengua inglesa (207)</em></p>
+<p><em>Esto se puede poner en relación con la existencia post-nacional del sincolombismo</em></p></div>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Colonizar el país con sus propios habitantes</li>
+				</ul>
+					</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>

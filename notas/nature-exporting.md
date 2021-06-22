@@ -1,23 +1,7 @@
-###### Simon, Joshua. _The Ideology of Creole Revolution : Imperialism and Independence in American and Latin American Political Thought_. Cambridge : Cambridge University Press, 2017.
-
-> Finally, he [Mier] depicted the insurgents’ demand  
-> for Mexican independence as the re- emergence of Anáhuac , a unifi ed  
-> nation long submerged by Spanish domination, using an indigenous term  
-> for the region surrounding Mexico City. Mier’s arguments were spread  
-> and popularized by Carlos María Bustamante, a newspaper editor who  
-> also survived imprisonment on several occasions. By incorporating refer-  
-> ences to Aztec emperors and nobles into the peroration of a speech he  
-> wrote for José Morelos to deliver before an assembly of insurgent leaders,  
-> Bustamante made correcting the injustice of the conquest into the central  
-> mission of the movement. 34
-> 
-> 141
-
-
-He mentions newspaper editorials by Bolívar (96)
-
-###### Beckman, Ericka. _Capital Fictions: The Literature of Latin America’s Export Age_. University of Minnesota Press, 2013. /z-wco
-
+#capítulo3
+#capítulo2
+#capítulo4
+# [@beckmanCapitalFictionsLiterature2013]
 > there is still much to be said about the uniqueness of the fictions born of Latin America’s first major experiment with capitalist modernization. The mirroring structures of belief undergirding literary and monetary fictions, for example, necessarily acquire special meaning in a region long accustomed to violent cycles of boom and bust wherein commodities and money “danced” (a key figure of the era), only to disappear into thin air with an oncoming crash. From within this context, paying attention to the circulation of money and commodities and to the exchange of meaning and metaphor in written texts promises to provide unique insights into how capitalism was imagined and lived.
 > 
 > xxi

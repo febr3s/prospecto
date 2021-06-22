@@ -30,3 +30,25 @@
 > the nation’s “tribunes” could through specularity represent the masses.
 > 
 > 168
+# [@andersonImaginedCommunitiesReflections2016]
+> Antes de la época de la imprenta,  
+> Roma ganaba fácilmente todas las guerras libradas en  
+> contra de la herejía en Europa occidental porque siem-  
+> pre tenía mejores líneas de comunicación interna que  
+> sus enemigos. Pero en 1517, cuando Martín Lutero cla-  
+> vó sus tesis en las puertas de la catedral de Wittenberg,  
+> tales tesis estaban impresas en una traducción alema-  
+> na, y "en el término de 15 días \[habían sido\] vistas en  
+> todos los rincones del país". 8 En los dos decenios de  
+> 1520 a 1540, se publicaron en alemán tres veces más  
+> libros que en el periodo de 1500 a 1520, lo que consti-  
+> tuye una transformación asombrosa en la que Lutero  
+> ocupaba un lugar indiscutiblemente central
+> 
+> 66
+
+Capaz podemos pensar la intentona de 1806 como un intento de emular ese mismo principio. La presencia de las "dos imprentas completas" en la lista de materiales para hacer la revolución da cuenta de cómo el ámbito textual era considerado el dispositivo nodal para la construcción de la "realidad alternativa"
+
+
+
+#imprentayracismo

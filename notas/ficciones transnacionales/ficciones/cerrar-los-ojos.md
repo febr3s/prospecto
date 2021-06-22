@@ -1,7 +1,7 @@
 20201215112509
 
-
-### Hardt, Michael., y Antonio Negri. _Empire_. 10/18 : Exils, 2004. /z-wcorg/.
+#latinamericanism
+# Hardt, Michael., y Antonio Negri. _Empire_. 10/18 : Exils, 2004. /z-wcorg/.
 
 
 > Sin embargo, aunque la soberanía moderna emanó de Europa, nació y se desarrolló en gran medida por la relación de Europa con su exterior, y particularmente mediante su proyecto colonial y la resistencia de los colonizados. La soberanía moderna emergió, entonces, como el concepto de la reacción europea y la dominación europea tanto dentro como afuera de sus fronteras. Son dos caras coextensivas y complementarias de un desarrollo: gobierno dentro de Europa y gobierno europeo sobre el mundo [[20201215112516]].
@@ -9,7 +9,7 @@
 
 
 
-### Castro-Gómez, Santiago. _Crítica de la razón latinoamericana_. Puvill, 1996. /z-wcorg/.
+# Castro-Gómez, Santiago. _Crítica de la razón latinoamericana_. Puvill, 1996. /z-wcorg/.
 
 > Utilizando una expresión de Antonio Caso, Zea piensa  
 > que el bovarismo es la lógica que atraviesa por entero la historia latinoamericana desde  
@@ -41,14 +41,15 @@ El efecto que produciría esto, y que generaría el “bovarismo” que señala 
 
 El pensamiento criollo fue un pensamiento abismal estructuralmente incapacitado para considerar como existente la “propia realidad”, tanto cuando fue imperial como cuando se propuso ser libertario --lo que ocurre en la confrontación dialéctica que atraviesan Miranda y Bolívar es que se impone el principio de realidad, que da lugar a un pensamiento emancipador totalmente inédito, que alcanza su primera y última formación más acabada en la obra de Simón Rodríguez.
 
-###### Simon, Joshua. _The Ideology of Creole Revolution : Imperialism and Independence in American and Latin American Political Thought_. Cambridge : Cambridge University Press, 2017.
+# [@andersonImaginedCommunitiesReflections2016]
+Un límite para tener en consideración a la hora de hacer una analogía entre la Colombeia y la forma novelística en relación con la formación nacional. La "fijeza que funde el mundo interior de la novela con el mundo _exterior_" que Anderson identifica en_ Periquillo Sarniento (53) no se puede encontrar en Miranda, en tanto no viajó por América Latina. Todo lo contrario: es un tour-de-monde, y en ese sentido puede ser más interesante como forma pre-novelística asociada a la construcción de nacionalidad, porque estaríamos hablando de una nacionalidad que se define respecto a la universalidad. La "fijeza" en los diarios de Miranda es su propia certeza de nacionalidad.
 
-> As Barbara Arneil has shown, Jefferson’s account of how the conquest and  
-> settlement of the New World invested the conquerors and settlers, and their  
-> Creole descendants, with new rights was inspired in part by John Locke’s  
-> famous chapter “ On Property ” in the second Treatise on Government ;  
-> see John Locke and America: The Defence of English Colonialism  
-> (Oxford: Oxford University Press, 1996), 190.
-> 
-> 209
 
+
+> Es imaginada porque aun los miembros de la nación  
+> más pequeña no conocerán jamás a la mayoría de sus  
+> compatriotas, no los verán ni oirán siquiera hablar de  
+> ellos, pero en la mente de cada uno vive la imagen de su  
+> comunión.  
+>   
+> 23

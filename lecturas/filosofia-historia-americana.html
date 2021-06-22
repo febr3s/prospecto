@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Zotero Report</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9Cg==">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_LD7RXHQV" class="item book">
+			<h2>Filosofía de la historia americana</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Leopoldo Zea</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1978</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://enriquedussel.com/txt/Textos_200_Obras/Filosofos_Mexico/Filosofia_historia_americana-Leopoldo_Zea.pdf">https://enriquedussel.com/txt/Textos_200_Obras/Filosofos_Mexico/Filosofia_historia_americana-Leopoldo_Zea.pdf</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>6/16/2021, 2:28:35 PM</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>México, D.F.</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Fondo de Cultura Económica</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>6/17/2021, 9:25:07 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>6/18/2021, 11:48:13 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_G42F7NI4">
+<div><p><strong>Extracted Annotations (6/18/2021, 11:48:38 AM)</strong></p>
+<p>"tacién, Ia vision de los vencidos, que diria Miguel Leén Portilla.la
+ historia de la relacién de este mundo con los pueblos de la periferia, 
+sino serdn éstos los que partiendo de un enfoque propio den su sentido a
+ esta misma historia." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=23">Zea 1978:23</a>)</p>
+<p>"o en relacién con Jas hazafias civilizadoras dela mundo 
+occidental,én propias del hombre occidental. La humanidad, propiamente 
+dicha, tenia ast su origen en Grecia. Era Grecia el origen de la cultura
+ y humanismo europeos. Lo otro seria la barbarie de que ya hablaban los 
+mismos griegos; la barbarie asitica, a la que impone el sello 
+civilizador de un Alejandro, la barbarie sometida por Roma, 0 la 
+barbarie que se humaniza en el cristianismo, Cristianismo originado en 
+una provincia del Imperio romano, pero helenizado, esto es, 
+racionalizado por Europa." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=25">Zea 1978:25</a>)</p>
+<p>"el mundo Hamado clasico, de la Hamada aurora de la humanidad. otros 
+no, 10s otros slo serdin hombres, pero con determinadas caracteristicas 
+que los disminuyen," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=25">Zea 1978:25</a>)</p>
+<p>""Se llega asi —dice Abdel-Malek— a una tipologia ano.na 
+especificidad real, pero separada de Ia historia y, por consiguiente, 
+concebida como un intangible, como esencial— que hace del 'objeto' 
+estudiado un ser distinto con relacién al que trasciende el sujeto 
+estudioso: tendriamos, entonces, un homo Sinicus, un homo Arabicus (y, 
+spor qué no? un Homo Aegypticus, etoétera), un homo Africanus. Frente al
+ hombre —el hombre nor mal, se entiende— el hombre europeo de Ia 
+épocahistérica, 0 sea de la antigitedad griega."!" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=26">Zea 1978:26</a>)</p>
+<p>"cia, asi como las claves del futuro de ess pueblos ysus culturas.la 
+decadencia y el nuevo arrangne; més exactamente, et proceso de 
+'renacimiento nacional" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=26">Zea 1978:26</a>)</p>
+<p>"nuar Abdel-Malek y un destacado grupo de fildsofos noratrianos.fio 
+de los latinoamericanos en enfrentarse a Ia filosolia y cultura 
+eurooccidental, a partir de Ios mismos supuestos de ésta" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=27">Zea 1978:27</a>)</p>
+<p>"proyecto propio de Ios hombres que la realizan con sus naciones.e ha
+ sido y lo que es, pero en relacién con el proyecto de lo que quiere 
+Hegar a ser. Se ye a si mismo como amo y sehor de la naturaleza. Pero 
+formando parte de esta misma naturaleza no sélo los ternitorios, la 
+flora y la fauna, sino también los hombres dentro de ella. Formando 
+parte de la naturaleza estaran los territorios y hombres descubiertos, 
+conquistados y colonizados por Europa, Dar sentido a esta accién, ast 
+como justificar los efectos de la misma en rela cién con el futuro, serd
+ funcidn de la filosoffa de la historia cali ficada como universal, 
+porque universal es su expansién y las metas de su proyecto, Hegel 
+conduce el largo hilo de la historia hasta el momento histérico del cual
+ es testigo, presenténdola como la historia del hombre que se va 
+liberando de una larga esclavitud hasta emerger, como libre y soberano 
+sefior de la maturaleza." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=31">Zea 1978:31</a>)</p>
+<p>"esion sera el enfrentamiento entre la cristiandadyla 
+modernidad.tendra como meta la hegemonia sobre el planeta, disputando la
+ misma al imperialismo ibero, Es el proyecto de la Hamada Europa 
+Occidental, encarnado en naciones como Inglaterra, Francia y Holanda que
+ se asienta, a su vez, en Norteamérica y algunas yonas de las Antillas y
+ parte de aqui buscard expanderse a la América bajo la hegemonia ibera, 
+El proyecto que encarnara fu goncepcldnopuritana, Sledunidense" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=32">Zea 1978:32</a>)</p>
+<p>"ledunidense bajo la colonizacién ibérica Frente a este proyecto,transformarlo en su propio proyecto." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=32">Zea 1978:32</a>)</p>
+<p>"los Estados Unidos de Noxte-l américa con su "Destino manifiesto".o 
+harin suyo el proyecto civilizador occidental, buscando su realizacién 
+en una América sometida hasta ayer al ya anacrénico proyecto ibero y su 
+expresién conser: vadora; ast como a la barbarie indigena, que ponfan 2 
+esta América al margen de la eivilizacién, Marginacién también propia 
+del mesti= aje, originado en el mismo proyecto ibérico, Proyecto 
+civilizador, extrafio a la experiencia de los hombres que pretenden 
+hacerlo suyo." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=33">Zea 1978:33</a>)</p>
+<p>"los pueblos quea lo sufricron.ia tatinoamericana, Ja negacién del 
+pasado, es distinta de fa forma como se realiza en la filosofia de la 
+historia hegeliana, la cual es tergiversada, No se busca lo que Hegel 
+resumfa en la palabra Aufhebung, esto es, la absorcidn, la asimilacién 
+del pasado para que el mismo no se vuelva a repetir. Se pretende, aunque
+ imitilmente, su cancelacién total, como si nunca hubiese existido, Se 
+pretende un olvido toral del pasado, el cual implicard, a su ver, la 
+pretension de iniciar una nueva historia, a partir de cero, Esto ¢, cero
+ experiencia. Nada mas y nada menos, lo que se pretende es 1a 
+cancelacién de Ia experiencia que ha dado origen en Europa a su 
+extraordinario desarrollo. Se niega la experiencia que ha permitido et 
+movimiento dialéctico de Ia historia europea. La experiencia que, 
+precisamente, distingue al hombre del animal, permitiéndole superar 
+etapas que van del salvajismo a la barbarie y de ésta a la 
+civilizacién." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=158">Zea 1978:158</a>)</p>
+<p>"Los latinoaml ericanosst pretendea ran borrar, nega r sin az sumir, 
+ela pbera; para asumir como propia la experiencia de los hombre s y 
+pueblos que han dado origen a Ia segunda etapa de esta colonizacién, la 
+occidental. Una asuncién que, por extraiia € irrealizable, slo implicaré
+ Ia aceptac in de una nueva forma de dependencia. Unclavo, se dice, saca
+ otro avo. Una colonizacién toma el lugar de la otra, Los paises 
+occidentales ocupari n, pura y simple: mente, el "yacio de poder" que el
+ colonialismo ibero se vers obligado a dejar. Una extraia y absurda 
+filosofi a de la historia, Ix Ge los pueblos latinoamericanos . Una 
+filosofi a que parte de la six tuacién de depende ncia que guarda n sus 
+pueblos con un cierto tipo de imperialismo, del cual pretenden 
+desembarazarse, asumien. do como propia una experiencia que le es 
+extrafia y con ella, una nueva forma de dependencia," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=159">Zea 1978:159</a>)</p>
+<p>"Es estao colonizacién la que originétayuxtaposicién a que ya ho 
+emnegaré a los colonizados todo derecho 4 considerar como. propios 
+valores, que el colonizador considera de su exclusividad. Negacién que 
+alcanzar é, no sélo a los indigenas, sino tambiéna criollos y mestizos, 
+Sobre el indigena se impondra una cultura que le sera ajena, cultura 
+para la cual éste es s6lo 'un instrumento de explotacién," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=159">Zea 1978:159</a>)</p>
+<p>"Por lo que se reliere al mestizo, al hijo de india ¢ ibero, éste 
+aspiintiendo vergiienza de su orien materno. Seré como bastardo: 
+rechazado de un mundo, al mismo tiempo que se miega a ser parte del 
+otro. En todos estos «asos, yuxtaposiciones, sin posibilidad de 
+asimilacin. Yuxtaposiciones que conducirin a su vez a otras 
+yuxtaposiciones en la busqueda de soluciones que Je sean igualmente 
+ajenas," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=160">Zea 1978:160</a>)</p>
+<p>"s como simples cosas para sera utilizadas, Por el otro, dice 
+Ribeiro:a poblacion. mayoritariamente mestiza, teniendo como su mayor 
+preocupacién, en el plano racial, resaltar su blancura y en el plano 
+cultural su europeidad, solo as. piaba a ser lusitana [o espaiiola], 
+después inglesa y francesa, como ahora quiere ser norteamericana."! 
+Imitando modos de vida, y haGiendo suyos habitos y costumbres, propios 
+de su dominador. Es éte cl criollo, presente en ésta nuestra América, 
+imitandoal padre conquistador y colonizador, tratando de ser como ¢l; 
+pero siempre dentro del plano de desigualdad, que Ie viene del hecho de 
+haber nacido en esta América y no en el centro de poder." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=160">Zea 1978:160</a>)</p>
+<p>"El criollo, consciente de su inferioridad, por lo que considera 
+esra? Es el hombre dispuesto a mantener el mismo orden dejado por la 
+colonia, pero ya bajo su responsabilidad. Es el hombre que se librara de
+ la dependencia politica de la Peninsula, pero manteniendo el orden que 
+ha heredado de ésta. Serd este hombre con su mentalidad el que dé origen
+ al proyecto conservador." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=160">Zea 1978:160</a>)</p>
+<p>"e la apreciac, ién seforo ial de la comun idad nati-a va como 
+inferior".*ha tocado en suerte comoalgo que Je ¢s extraiio. Extraiio es 
+el mundo del padre, del cual sutre rechazo; como también el mundode Ja 
+madre, por ser éste el culpable del rechazo. Por ello, seri este hombre 
+el que busque [uera de si, fuera de su propia realidad, lo que ha de ser
+ el horizonte de sus posibilidades, el futuro que ha de hacer sin contar
+ con su pasado. Un borizonte de posibilidades extraiio a si mismo, y a 
+su realidad. Extranio a lo que es, y quiere dejar de ser, para ser algo 
+distinto. Cambiar, transformar la realidad, si es posible en su 
+totalidad, sera el proyecto de este hombre. Ser distinto de los 
+espafioles 0 lusitanos que lo rechazan, pero también distinto de la 
+barbarie que representa el gentio de la madre. Sera éste, el proyecto 
+civilizador, que empieza como proyecto liberador y acaba como proyecto 
+represor. Hijo putativo, por un hecho hist6rico, el de la conquista y 
+colonizacién, del cual no se siente responsable, decide adoptar otro 
+padre, otra dependencia, a partir de la cual pueda reatizarse sin la 
+carga de un pasado que no acepta como propio." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=161">Zea 1978:161</a>)</p>
+<p>"como propio.ue sea el proyecto que se adopDe cualquie r forma, en 
+esta América, indigena, criollo 0 mestia parece enconwarse obligado a 
+elegir una determinada forma de dependencia, O bien, Ja dependencia, en 
+relacién con el orden en que ha sido formado, manteniendo o conservando 
+el orden ibé- rico, pero sin las metrépolis; 0 bien, la dependencia 
+propia del orden creado por Jos pueblos civilizados, esto ¢s, el 
+neocolonialismo." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=161">Zea 1978:161</a>)</p>
+<p>"6lo adiestrar a quienes han de ser fieles guardianes de 
+susintereses.que acepta, libremente, la nueva dominacién, Esta dase, 
+dice Darey Ribeiro, "esté Hamadadesde el inicio a ejercer el papel de 
+una capa gerencial de intereses extranjeros, mas atenta a las exigencias
+ de éstos que a las condiciones de existencia de la pobla cion 
+nacional", Su funcién seria "inducir a la poblacién a atender los 
+requisitos de factorfa productora de géneros tropicates 0 de metales 
+preciosos y generadora de lucros exportables". "Es en el ejer cicio de 
+esta fumcién que desempefia su papel gerencial en el plano 
+econdmico-productivo; ordenador en el plano social; renovador en el 
+teenoldgico-cientilico y doctrinador en el ideoldgico."" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=162">Zea 1978:162</a>)</p>
+<p>"formas de d, ependencia elo ineludiba le instrumento de su 
+cancelacién.cual, estos pueblos tenian que ser colonizados para bortar 
+de ellos Ja barbaric. La barbarie encarnada en las diversas expresiones 
+de esta realidad, Encarnada, igualmente, en la yuxtaposicién de que 
+también se es consciente. Barbaro era tanto el indigena conquistado, 
+como el negro esclavizado, el eriollo dejado de la mano de Ia cultura 
+occidental y el mestizo que sintetizaba ambas barbaries. Frente a esta 
+barbarie, 1a civilizacién tendria que tiunfar, aun cuando este triunfo 
+implicase €l desarraigo y el exterminio de culturas y razas que habfan 
+impedido antes su posibilidad en esta América," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=163">Zea 1978:163</a>)</p>
+<p>"los pueblos ql ue sufrir én el impacto de la colonizac iéinl 
+occidental.undo pueden también plantearse en términos de alienacién 
+ydesalienacién. Estos problemas se plantean en dos 'escalones'. La. 
+primera estructura fundamental concierne a la dialéctica de la 
+desposesién y de reconquista de Ia legitima posesién, con sus 
+incidencias sobre la personalidad histérica." "Sobre esta estructura 
+fundamental se injerta otra, donde se plantea el problema de la falsa 
+conciencia, en este caso un contexto de filosofia de la cultura. La 
+colonizacién realizé —en lo que constituye sin duda el elemento mas 
+positivo de su balance histérieo— una yuxtaposicion mecinica y 
+despersonalizante de elementos culturales de variados origenes."" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=164">Zea 1978:164</a>)</p>
+<p>"Elemento positive podra Megar a ser esta yuxtar posicidn, si se re 
+cultura del dominador. Asimilacién que no es sino la permanente 
+mestizacion de lo que el hombre va haciendo y puede beneficiar a otro en
+ uma cadena cada yer mis rica, Tal fue 1a mestizacién que de la cultura 
+asiitico-antigua, grecorromana y cristiana hizo la cultura occidental y,
+ Ja cual, a pesar suyo, posibilita ta del resto del mundo al imponer su 
+colonizacion. La mestizacién que Hegel expresa en la expresién 
+Aufhebung." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=164">Zea 1978:164</a>)</p>
+<p>"semejante a to da expre sin que ee s propia de Ia histori a del 
+hombre,a, acabara conduciendo a la conciencia de si misma, y con ello a 
+su ineludible absorcién, asuncién, aufhe bung." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=165">Zea 1978:165</a>)</p>
+<p>"esentes, en los diversos inten-e tos hechosa por olvidarla, marginar
+ la.istoria que, pese a todo, han venido haciendo Jos Iatinoamericanos, 
+al igual que lo han venido haciendo otros muchos pueblos de la 'Tierra 
+que parecian encom. trarse al margen de la historia," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=165">Zea 1978:165</a>)</p>
+<p>"De alli la yuxtaposicién no asimilada de culturas a lo largo ddes 
+como las que en Europa, dieron origen a los poderosos imperios que 
+después se expandieron por el mundo. La colonizacién europea sobre el 
+resto del mundo, como sobre la América indigena no supo hacer de sus 
+ramas troncos o semillas de otras" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=167">Zea 1978:167</a>)</p>
+<p>"175 ello, la mestizacion que, pese a todo se realiz6, fue vista como
+ una falta, un pecado, como algo vergonzoso y que, por lo mismo, deberia
+ ser ocultada. De alli, el nacimiento de naciones débiles, sin raices, 
+bastardas. Naciones que serin rechazadas por sus inismos creadores." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=168">Zea 1978:168</a>)</p>
+<p><em>criptógamos! (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=168">note on p.168</a>)</em></p>
+<p>&nbsp;</p>
+<p>"reato de fa mayor trascendencia." sujetos, que no fue obsticulo para
+ que Europa diese origen a sus culturas ¢ imperios, lo sera en América 
+debido a la forma de conquista y colonizacién que Ia Europa establecié 
+en estos pueblos, La diversidad que en Europa aglutind fuerzas y 
+caracteres, en América s6lo provocard divisiones y, con elas, guerras 
+intestinas sin fin haciendo de estos pueblos ficil pasto de ambiciones 
+extrafias, pasto de dominaciones que sueeden a otras dominaciones. 
+Problema que no se sohucionari con Ia adopeidn de instituciones y leyes 
+que, si bien, han funcionado en Europa, no necesariamente han de 
+funcionar en América," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=168">Zea 1978:168</a>)</p>
+<p><em>El problema es que precisamente esa fue la premisa con la que se 
+estableció, o la premisa sobre la que se estableció el colonialismo, 
+como está en la cita de Tocqueville que él mismo hace. (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=168">note on p.168</a>)</em></p>
+<p>&nbsp;</p>
+<p>"sla, para qui en se hace j usticia a quien se busca conceder in 
+gualdad.anidad, cumplamos ahora con la politi con Ia sociedad, allanando
+ las dificultades que opone un sistema tan sencillo y natural, mas tan 
+débil que el menor tropiezo Io tras-" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=168">Zea 1978:168</a>)</p>
+<p>"torna, lo artuina." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=169">Zea 1978:169</a>)</p>
+<p>"igualdad les impedia participar en ln conduccion de la sociedad,que 
+de igualdades abstractas. cipio de la igualdad politica es generalmente 
+reconocido —dice— no Jo es menos el de la desigualdad fisica y moval. La
+ naturaleza hhace a los hombres desiguales, en genio, en temperamento, 
+fuerzas y caracteres." La ley crea igualdades ficticias, las cuales s6lo
+ funcionan cuando los hombres les dan su asentimiento." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=169">Zea 1978:169</a>)</p>
+<p><em>bueno para contrastar con <br>"la naturaleza no hace razas de estúpidos" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=169">note on p.169</a>)</em></p>
+<p>&nbsp;</p>
+<p>"recen justificar, por el contrario, formas de dominacién, hombres y a
+ la yuxtaposicion de las sociedades que forman esta nuestra América, 
+Desigualdades que, sin embargo, son unificadas en Ia explotacién, en ta 
+sumisién, en Ia dependencia colonial. Indios, ne gros, criollos y 
+mestizos, siendo tan diversos entre si, son. sin embargo parte del 
+sistema que permite su explotacion. La diversidad. natural se convierte 
+en instrumento para la unidad de la explotacidn, Todos los americanos, 
+pese a sus ineludibles realidades, a sus includibles diferencias, forman
+ parte del poderoso sistema que el mundo occidental ha originado al 
+expandirse sobre la totalidad de la 'Tierra," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=170">Zea 1978:170</a>)</p>
+<p><em>este sería el principio de economía política: la noción de la 
+clase colonial, donde sub-humanos y no-humanos forman parte de la misma 
+categoría de explotados. No recuerdo con presición en qué textos, me 
+suena Miranda, está lo de Blanco Fombona que leí hace poco, era algo muy
+ puntual sobre cómo la metrópoli disfrutaba del trabajo de la colonia 
+sin participar de él. (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=170">note on p.170</a>)</em></p>
+<p>&nbsp;</p>
+<p>"nte a un enemigo que es com:ercomo comtin ha sido su dominio."La 
+sangre de nuestros ciudadanos ¢s diferente —dice el Libertador— 
+mezclémosla para unitla; nuestra Constitucién ha divido los poderes, 
+enlacémosios para unitlos; nuestras leyes son funestas reliquias de 
+todos los despotismos antiguos y moceros, que este edificio monstruoso 
+se dertibe, caiga y apartando hasta sus ruinas, elevemos un templo a Ia 
+justicia."®" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=171">Zea 1978:171</a>)</p>
+<p>"stra Américadard origen a Ia wnidad para el logro de fa libertad.ta 
+en vigor y quizd con mayor fuerza que nunca, no ocupan otro lugar en 1a 
+sociedad que el de siervos propios para el trabajo, y cuando mi en el de
+ simples consumidores; y aun esta parte coartada con restric: ciones 
+chocantes: tales son las prohibiciones del cultivo de frutos de Europa, 
+al estanco de Ias producciones que el rey monopoliza, el impedimento de 
+las [abricas que la misma Peninsula no. posee, los privilegios 
+exclusivos del comercio hasta de los objetos" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=171">Zea 1978:171</a>)</p>
+<p><em>helo aquí :) (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=171">note on p.171</a>)</em></p>
+<p>&nbsp;</p>
+<p>"incias americanas,s, para que no se traten, ea ntiendan ni negocis en."ra ser explotadas." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=172">Zea 1978:172</a>)</p>
+<p>"lve a hablar dey la ignominio— sa situac ién dele hombre en Ame 
+érica.asiva, nuestra existen cia politic a ha sido siempre nula y nos 
+hallamos en tanta mds dificultad para alcanva r Ja Libertad, cuanto que 
+estamos colocados en un grado inferior al de la servidumbre; porque no 
+solamente se nos hab{a robado la Libertad, sino también Ja tirania 
+activa y domésti ca."" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=173">Zea 1978:173</a>)</p>
+<p>"impuesta y como algo natural el servir a otros contra si mis mos.un 
+instrumento ciego de sm propia destruccién; Ia ambicién, Ja intriga, 
+abusan de Ia credibilidad y de la inexperiencia, de hombres ajenos de 
+todo conocimiento politico, econémico o civil."" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=174">Zea 1978:174</a>)</p>
+<p>"gualdad de los pucblos de esta América frente a otros pueblos.de la 
+libertad; desgra Giadamente no a todos los hombres les han tocado las. 
+eircunstan" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=175">Zea 1978:175</a>)</p>
+<p>"ENGIo C Las desigualdades no son, asi, fisicas, sino originadas en circunstancias histéricas." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=176">Zea 1978:176</a>)</p>
+<p>"ombres determinados, en una circunstancia igualmentedeterminada. de Washingion."" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=178">Zea 1978:178</a>)</p>
+<p>"s, los talentos que las hicieron&gt; posibles. Dice Bolivar en la 
+Carla,os ylas virtudes politicas que distinguen a nuestros hermanos del 
+Norte, los sistemas enteramente populares, lejos de sernos favorables, 
+temo mucho que vengana ser mmestra ruina."" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=178">Zea 1978:178</a>)</p>
+<p>"stas seanl factibles en situaciones como las que vive esta América.idad era demasiado lisonjero para que no fuese seguido.""" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=178">Zea 1978:178</a>)</p>
+<p>"ce la politica. Nosotros no podemos vivir sino de la unién."! no 
+podamos lograr Ia felicidad "con las leyes y costumbres de los 
+amecrticanos. Usted sabe que esto es imposible; lo mismo que parecerse 
+Ia Espafia a la Inglaterra". Y a Daniel F. O'Leary le dice "Yo pienso 
+que mejor seria para Ia América adoptar el Corin qu el gobierno de los 
+Estados Unidos, aunque es el mejor del mun do."¥" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=179">Zea 1978:179</a>)</p>
+<p>"Ya Ia veo s ervir de lazo, des centro de emporio a la fas milia humane a;brigan sus montaiias de plata y de oro;" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=185">Zea 1978:185</a>)</p>
+<p>"as ca-a lumnias de los Butfon, Voltaire, De Pauwy otros 
+ilustrados.no bajo €l signo de la dependencia, sino bajo el signo de la 
+libertad y la justicia." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=185">Zea 1978:185</a>)</p>
+<p><em>sobre las tensiones con estados unidos (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=186">note on p.186</a>)</em></p>
+<p>&nbsp;</p>
+<p>"880, rei sume toda su accién en las siguientes y pesimistas palabras: Zea 1978:195)</p>
+<p>"en este vasta o continente dice comentando laa muerte de Sucre~,e cuantos males nos faltaban o mds bien los van a completar." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=196">Zea 1978:196</a>)</p>
+<p>"ajo la dominacién de la Mad," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=200">Zea 1978:200</a>)</p>
+<p>"en. quen éstos se sienten bastante fuertes para disputar Ia 
+primacfa,e lanzan a 1a arena, sino dos aspiraciones al imperio, dos 
+atletas que pelean ¢on unas mismas armas y por una misma palma." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=200">Zea 1978:200</a>)</p>
+<p><em>jeje Williams también tiene su "eco" de Bello (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=200">note on p.200</a>)</em></p>
+<p>&nbsp;</p>
+<p>"lonizacién seguiria siendo un hecho.rria representan dos posturas, 
+respecto a lo qué habia de implicar el nuevo proyecto libertario. La 
+educacion deberia tender a formar los hombres que hiciesen posible el 
+nuevo proyecto. ¢Contar con el pasado, 0 borrarlo definitivamente? tal 
+va a ser Ja alternativa. Liducar a los americanos en. relacién con lo 
+que era su realidad 0, bien, educarlos para una nuevarealidad. Dos 
+utopias, utopia de un pasado que se queria conservar, 0 utopia de un 
+futuro que no se tenia, Y¥ de alli dos nuevos proyectos, el proyecto 
+conservador y el proyecto civilizador. Dos proyectos encontrados, tan 
+encontrados como los grupos politiese disputaban a conduccion de esta 
+América. La asuncién jad ¢ ideales, del pasado con lo que deberia ser el
+ futuro, no seria parte de ningtin proyecto. El proyecto, que podemos Ma
+ mar asuntivo, solo advendria ante la conciencia del fracaso de los 
+proyectos conservador ycivilizador." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=202">Zea 1978:202</a>)</p>
+<p>"o cel que pudiesen derivarse virtudes civicas. Bello no lo 
+acepta.pesar delos mismnos colonizadores, que los hombres de esta 
+América, se entrentaron a sus dominadores. Esta presencia, lejos de 
+hacer de los americanos, sumisos servidores, les hizo hombres capaces de
+ Inchar abierta, y tenazmente por sus derechos como hombres y pueblo No 
+eran republicanos, por supuesto." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=206">Zea 1978:206</a>)</p>
+<p>"s. Carta que él venczolano Francisco de Mirandar hace difundir.e a 
+ser un pueblo diferente; renunciemos al ridiculo sistema de unién y de 
+igualdad con nuestros amos y tiranos." "Es pafia ha quebrantado la 
+primera, todos sus deberes para con. nos otros; ella haroto los débiles 
+Iazos que habrian podido unirnos y estrecharnos."" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=214">Zea 1978:214</a>)</p>
+<p>"de obedecer a cualquier amo, incluyendo a los amos de sus amos? 
+sofos ilustrados, Calumnias que franceses, ingleses y prustanos 1anzaron
+ contra la América y sus habitantes. Las calumnias de los Reynal, 
+Buifon, De Pauw y otros muchos. Calumnias encaminadas a reducir la 
+importancia de los imperios alzados por Espatia y Portugal en América 
+yjustificar, asf, el proyecto de expansién de la Givilizada Europa 
+occidental," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=221">Zea 1978:221</a>)</p>
+<p>"n colonial, no habia podido encontrar una nueva fora ma de orden,ién
+ —dice Alaman— y que por esto, mas bien que una nacidn, son una reunién 
+de naciones de diferente origen, y que pretenden tener diversos 
+derechos, si esta diversidad no se funda sdlo en leyes sino que procede 
+de la naturaleza; las varias castas abandonadas a sus esfuerzos, no 
+habiendo unade ellas que domine legaimente como en los Estados Unidos, 
+mas tarde © mas temprano acaban chocando entre si, si un poder superior a
+ todas, sostenido por un prestigio por todas igualmente reconocido, no 
+conserva entre ellas el equilibrio, protegiéndolas sin distincién y sin 
+oprimir a ninguna. De otra manera, los elementos de discordia se manifie
+ tan en cualquier ocasién, y a veces en los momentos en que la union 
+seria mas necesaria, como cuando se trata de repeler un agresidn 
+extranjera, pues entonces el invasor fomenta en su provecho estas 
+rivalidades, haciendo imposible un esfuerzo nacional, 'omo entre 
+nosotros sucedid en la invasion del ejéreito norteamericano en 1847."*5"
+ (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=228">Zea 1978:228</a>)</p>
+<p>""un gobierno fuerte, centralizas dor, cuyos hombres sea n verdader a
+ los ciudadanos por el camino del orden y de las vireudes, Cuando se 
+hayan moralizado, venga'el Gobierno completamente liberal, libre y Meno 
+de ideales, donde tengan parte todos los ciudadanos"" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=229">Zea 1978:229</a>)</p>
+<p><em>jaja, Che Guevara, sal de ese cuerpo (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=229">note on p.229</a>)</em></p>
+<p>&nbsp;</p>
+<p>"e no habian hecho, y de la cual solo se sentian instrumento. 3 ra la
+ vor de José Maria Luis Mora, y los hombres de la Reforma, apoyando el 
+progreso frente al retroceso. Ante Diego Poriales, Las tia y Bilbao 
+oponicndo al conservadurismo el republicanismo, Frente a Gabriel Garcia 
+Moreno, Juan Montalvo oponiendo al ultramontanismo teocritico el 
+liberalismo. Y ante Juan Manuel" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=237">Zea 1978:237</a>)</p>
+<p>"de Rosas estarin Domingo Faustino Sarmiento, Juan Bautista Ak berdi y
+ su generacién sosteniendo la civilizacin conta ia barbarie, Yast, a To 
+largo de toda ésta nuestra América. Al proyecto conservador se 
+enfrentard el proyecto civilizador, Y dentro de este proyecto, los 
+Estados Unidos serin vistos como el modelo a realizar Pero no ya en la 
+forma como lo proponfa fray Servando 'Tere sa de Mier, esto ¢s, 
+adaptando el modelo a la realidad latinoamericana, sino mediante su 
+copia, lo mds exacta posible." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=238">Zea 1978:238</a>)</p>
+<p>"de los colo:, nizados que, de esta forma, ingresarin en Ia 
+civilizacién.ndes colonizaciones entran indispensablemente en el sistema
+ politico que la época asigna a Francia y a Europa. Oriente nos Hama y 
+la falta de salidas'interiores las hace necesarias para nuestras 
+poblaciones crecientes."" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=238">Zea 1978:238</a>)</p>
+<p><em>maraviloso para contextualizar lo de civilización como plan a combatir en Rodríguez (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=238">note on p.238</a>)</em></p>
+<p>&nbsp;</p>
+<p>"aiiaa Francia, Inglaterra y Holanda han sido sus mejores 
+agentes.arti: ne— pero crea el mévil del trabajo; multiplica la vida, el
+ movimiento social; preserva el cuerpo social de la languider que lo 
+enerva o de Ja superabundancia de fuerzas sin empleo que, tarde © 
+temprano, estallan en revoluciones y en catistrofes". Es ésta una tarea 
+que slo Europa puede realizar, El mayor ejemplo de esa posibilidad to 
+son ya los Estados Unidos de Norteamérica, En esta nacidnse han 
+proyectado y realizado dos metas que se habia propuesto Euopa como 
+agente de la eivilizacién. "Poner las cosas. y as ciudades de Africa en 
+las manos de los principes arabes seria contiar la civifizacién a la 
+barbarie."" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=238">Zea 1978:238</a>)</p>
+<p>"modelo sera el podleroso imperio que se va levantando en el norte.l 
+mundo que les ha tocado, lo que Europa viene haciendo en Asia y en 
+Africa y lo que los Estados Unidos hacen en las praderas del Far West. 
+Los iberoamericanos se impondran la tarea de recolonizaresta América, 
+Recolonizarla de acuerdo con el proyecto civilizador. Esto es regenerar 
+la raza, cambiar la mente, A la yaza mediante una colosal inmigracién, a
+ la mente medianie la edueacién. Hacer de cada una de las naciones 
+iberoamericanas los Estados Unidos de la América del Sur, y de los 
+iberoamcricanos hombres, practicos, utilitaristas, los yanquis del sur, 
+como los Hamara un maestro mexicano." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=240">Zea 1978:240</a>)</p>
+<p>"ntina, el proyecto civilizador mexicano, el agente de su realizacién
+ ser el mestizo. El mestizo como expresion de la mezcla racial del 
+conquistador con el conquistado. Justo Sierra, en un largo ensayo, en 
+Méxicosocial y politico, describe al mestizo como el tmico grupo racial y
+ social capaz de transformar a sociedad creada por el colonialismo, para
+ dar origen a uma sociedad a Ja altura de las que han hecho posible el 
+progteso y la civilizacién del planeta." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=244">Zea 1978:244</a>)</p>
+<p>"de los argentinos Doo mingo Sar miento y Juanel Bautista Alberd cas 
+Alamin, el de la falta de homogeneidad de las razas en Améxica. Ha sido 
+la falta de homogencidad racial en Latinoamérica la que ha impedido la 
+solaein civilizadora estadunidense, Falta de homogencidad de la que es 
+parte el mestizaje, el cual, lejos de ser una solucidn, resulta una 
+agravacion del problema, En esta par te de la América, nos dint 
+Sarmiento, existen tres grupos raciales, el espaiiol, el indio y el 
+negro, y es de su combinacién que surgen los diversos grupos mestizos. 
+Grupos que son, a vez, los herederos de todos los defectos de las razas 
+allf combinadas." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=245">Zea 1978:245</a>)</p>
+<p>"var, por si mismos, a sue plena realizaciénla anhelada 
+civilizacién,na forma, evan consigo. De aqui que su proyecto, el que se 
+han propuesto, dependa de la climinacién de todo antecedente racial y el
+ cambio de mentalidad de los futuros americanos, Lavado de sangre y 
+lavado de cerebro. De sangre a través de una gran inmigracién que tome 
+eb lugar de criollos, indios y mestizos; y mediante una educacién que 
+permita hacer de los americanos, individuos distintos de lo que hasta 
+entonces habfan sido. El instrument de este nueva educacién sera ta 
+filosofia positivista, EL positivismo qnehard del americano, un factor 
+de la civilizacion y el progreso," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=246">Zea 1978:246</a>)</p>
+<p>"les, indios, alricanos y mestizos son Ia anti-civilizacién, 1a bar 
+rie.s Lautaros, Caupolicanes y Colocolos, no obstante el ropaje con que 
+los vista un cantor como Ercilla. Unos, espaftoles cerriles; los otros 
+indies asquerosos, dice Sarmiento, que ahora mandariamos colgar si 
+reapareciesen en una nueva guerra con los araucanos" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=247">Zea 1978:247</a>)</p>
+<p>"r expresién de cis vilizacidn, lo es de una barbarie mis 
+acentusda:iere decir animaJes mis reacios, menos aptos para la 
+civilizaciény asimilacién evropeas.""?" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=247">Zea 1978:247</a>)</p>
+<p>"érica, con los intereses de las naciones urgidas de ese progress,mis
+ adelantados que el nuestro —agrega Sarmiento— para que nos comuniquen 
+sus artes, sus industrias, su actividad y su aptitud al trabajo."" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=251">Zea 1978:251</a>)</p>
+<p>"a patria ya no es esa entidad que declandefender los 
+americanos.cesidad de provecho y de comodidad, y el heroismo guerrero no
+ es ya el orden competente de las necesidades prosaicas del comercio y 
+de la industria, que constituye Ia vida actual de los paises"."" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=252">Zea 1978:252</a>)</p>
+<p>"ntipatridtico, Es el mismoproyecto europeo revisado y 
+actualizado.spaiiola en este continente —dice Alberdi—; pero tomé su 
+lugar la accién de la Europa anglosajona francesa. Los americanos de hoy
+ somos europeos que han cambiado de maestros: a la iniciativa espaiola 
+ha sucedido la inglesa y francesa. Pero siempre es Europa la obrera de 
+nuestra civilizacién. El medio de accién ha cambiado, pero el producto 
+es el mismo."" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=253">Zea 1978:253</a>)</p>
+<p>"e quien lo adoptaba y pretendia realizarlo. José Enrique Rodé 
+dice:"! Imitar es eso, cl reconocimiento de la superioridad de lo que se
+ imita, asi como el reconocimiento de la propia inferioridad. Punto de 
+partida para una nueva subordinacién, una nueva dependencia. 
+Subordinacin y dependencia, frente a lo que se considera superior." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=263">Zea 1978:263</a>)</p>
+<p>"upuesta sup" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=263">Zea 1978:263</a>)</p>
+<p>"tratar de construir sobre ella y co," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=263">Zea 1978:263</a>)</p>
+<p><em>#descolonizacion-infinita (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=263">note on p.263</a>)</em></p>
+<p>&nbsp;</p>
+<p>"negacién que es afirmacién." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=264">Zea 1978:264</a>)</p>
+<p>"ontando con ella, cabalgando sobre su. conocimiento y experien-- 
+cia,, pero no para superarlo, sino tan sélo para conservarlo. Se empeaé 
+en mantener el orden propio del sistema heredado, pero sin 
+transformarlo. Se preocups tan s6lo por ocupar el vacio de poder dejado 
+por la metrépoli, sin pretender afectarlo. De alli las limitaciones de 
+tal proyecto y su {racaso." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=264">Zea 1978:264</a>)</p>
+<p>"sistema que los latinoamericanos pudiesen considerar como propio.s 
+nuestros pueblos, la herencia recibida, contenia expresiones positi vas,
+ Una positividad de Ia cual se podria partir con firmeza para realizar 
+el proyecto que fuera propio de los libertadores de esta América. Simm 
+Rodriguez, maestro del Libertador, insistiré una y otra ver en destacar 
+Ja existencia de un pasado americano que lejos de ser rechazado deberia 
+ser asimilado." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=264">Zea 1978:264</a>)</p>
+<p>"oberania del pueblo en lass entrafias de la educacién 
+teocritica',hecho desaparecer la esclayitud de todas las reptiblicas del
+ sur, nosotros los pobres, y yosotros los felices y los ricos no lo 
+habéis hecho; hemos incorporado © incorporamos a las razas primitivas, 
+formando en el Pert la casi Cotalidad de la nacion, porque fa creemos 
+nuestra sangre y nuestra car ne, y vosotros las exterminais 
+jesuiticamente"." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=265">Zea 1978:265</a>)</p>
+<p>"El proyectoasuntivo ahoraa adoptado,l negar d, abiertr amene te,r el
+ proye se ha sido Y $¢ 8, para ser algo distinto. ésta la generacién de 
+José Enrique Rods, José V la v asconcelos,r César Zumeta, Man ucla prop 
+Gonziler Pr ada,e Alsea, a la vez, crisol de todo cuanto el hombre pueda
+ crear. Es. la generacién que hablara de un nuevo mestizaje, una nueva 
+raza, Ja que lamara Vasconcelos raza eésmica. Mestizaje no ya racial 
+sino cultural, para el cual, debido a su propia historia se encontr aha 
+preparada esta América, Asi, un pasado y una realidad supuest amente 
+negativos, se transforman en positivos," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=267">Zea 1978:267</a>)</p>
+<p>"ivilizacion,ique Rodé, hari expresa la nucva reaccién. Reaccién aas 
+Ultimas colonias de Espaita en América, preparindose a ocupar el vacto 
+de poderu que,." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=267">Zea 1978:267</a>)</p>
+<p>"dmira lo qu e no se tieneIo y se considera es supe rior a a lopro-r 
+pio. esta creencia que se puede aceptar, libremente, una nueva 
+subordinacidn 0 dependencia, Tal era lo que ya venia haciendo Lati 
+noamérica de acuerdo con el proyecto civilizador. Libremente, 
+Latinoamérica se va rebajando como realidad, en funcién con modelos que 
+considera superior a ésta su realidad, EI nuevo dominador © colonizador,
+ no necesitard ya de aceiones de conquista alguna. Bastard convencer a 
+sus subordinados de su superioridad, asi como de la incapacidad de éstas
+ para alcanzar esa superioridad. "Es asi =dice Rodé— como Ia vision de 
+una América deslatinizada por propia voluntad, sin la extorsién de la 
+conquista, y regenerada luego a imagen y semejanza del arquetipo del 
+Norte, flota ya sobre 105 suefios de muchos sinceros interesados por 
+nuestro porvenir € inspira Ja fruicién con que ellos formulan a cadapaso
+ los mas sugestivos paralelos, y s€ manifiestan por constantes. 
+propésitos de innovacidn y de reforma."" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=268">Zea 1978:268</a>)</p>
+<p>"lependencia interior, vi eneue a ser solos exps resién «lel propios 
+respeto.mos de personalidad. Sin embargo, agrega, "tenemos una herencia 
+de raza, una gran tradicién étnica que mantener , un vinculo sagrado que
+ nos une a inmortales paginas de Ia historia". Por ello, "el 
+cosmopolitismo, que hemos de acatar como una irresis~ tible necesidad de
+ nuestra formacién, no excluye, ni ese sentimien - to de fidelidada lo 
+pasado, ni la fuerza directriz y plasmante con que debe el genio de la 
+raza imponerse en la refundicin de los elementos que constituirin al 
+americano definitive del futuro".® Mestizaje racial y cultural dentro 
+del cual han de juntarse a to propio los elementos también creativos del
+ pragmatismo y utilitarismo sajon." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=269">Zea 1978:269</a>)</p>
+<p>"ropio losn. Se refiere a la afirmacién del proyecto civilizador que 
+declara que "gobernar es poblar'. Considerindola una {érmula peligros a 
+si amtes no se define el porqué y el para qué de este proyecto. Pro: 
+yecto que debe estar fincado en Ia realidad de Ja cual se tiene que 
+partir, por negativa que parezca. No se puede echar por Ia borda Ia 
+realidad, hay que contar con ella, Es ella misma Ja que ha dado origen a
+ la supuesta necesidad de tal proyecto. Dice Rodd: "Gobernar es poblar, 
+asimilando , en prime r término, educand o y selec cionando después."? 
+Poblar si, pero en funcién con una realidad que no puede ser ignorada y,
+ menos ain, desplazada." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=269">Zea 1978:269</a>)</p>
+<p>"Intuye que las Antillas Cuanto hice hasta hoy, y haré, es para eso."
+ de partida, de Ia expansién estadumidense sobre el resto de América. 
+Quisiera Jiberar a su tierra de Espaiia, pero siente temor de que Ja 
+misma sea anexada, por la propia Espafia, a los Estados Unidos. Anexién 
+que sera también el punto de partida de la expansién de este pueblo 
+sobre el resto de ésta su América. Somos los mas interesados continia, 
+"en impedir que en Cuba se abra, por Ia anexiénde los imperialistas de 
+alla y los espaitoles, el camino que se ha de cegar, y con nuestra 
+sangre estamos cegando, de. la anexién de los pueblos de nuestra 
+América, al Norte reyuelto y brutal que los desprecia"" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=273">Zea 1978:273</a>)</p>
+<p>"icamente de anexionismo. Mart! luché también, contra estose imentos.
+ Estados Unidos a rendir la Isla a los cubanos". La guerra de 
+independencia es por ello una lucha contra todas Tas fuerzas, espafiolas
+ y cubanas, que pretenden traspasar el dominio de Cuba al nuevo 
+imperialismo, "Ia anexién de Cuba a los Estados Unidos'." (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=273">Zea 1978:273</a>)</p>
+<p>"¢Qué opinan los Estados Unidos de esta anexién? The Manufact 
+"ZQueremos a Cuba?" Se viene hablando, dice el articulo, que los Estados
+ Unidos quieren comprar a Esparia la Isla de Cuba. Que Espafia quiera 
+venderla, no seria descabellado. Espaiia es una nacién pobre y necesita 
+dinero. 2Pero conviene a los Fstados Unidos esta incorporacién?" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=279">Zea 1978:279</a>)</p>
+<p>"Aludiendo a Sarmiento, dice Mart{: "No hay batalla entre l. ciza." 
+Hay batalla entre Ja realidad y los empefios por imponerle lo que le ¢s 
+ajeno. Por ello "El mestizo autéctono ha vencilo al ctiollo exstico". 
+"Por eso el libro importado ha sido. vencido en América por el hombre 
+natural." "El hombre natural es bueno, acata y premia la inteligencia 
+superior, mientras ésta no se vale de su sumisién para daftarle," Es el 
+hombre dispuesto a recobrar "por la fuerza el respeto de quien Ie 
+hiere"," (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=283">Zea 1978:283</a>)</p>
+<p>"sido capa x de hacere para aleanzar sus, Hibertades y pe ara 
+detenderlas ,capaces para defender nuestras liberta. des, como ellos ha 
+defendido, en su momento, las suyas, "El desdén del vecino formidable, 
+que no la conoce, es el peligro mayor de nuestra América dice Marti— y 
+urge, porque el dia de Ia visita ptdximo, que el yecino la conozca 
+pronto para que no Ia desdeiie. Por ignorancia Megarfa, tal vez, @ poner
+ en ella la codici Por respeto, Iuego que la conociese, sacaria de ella 
+las manos"?" (<a href="zotero://open-pdf/library/items/U8SJ4NC8?page=286">Zea 1978:286</a>)</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_29LVJZJ5">Filosofia_historia_americana-Leopoldo_Zea.pdf					</li>
+					<li id="item_U8SJ4NC8">Filosofia_historia_americana-ocr-Leopoldo_Zea.pdf					</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>

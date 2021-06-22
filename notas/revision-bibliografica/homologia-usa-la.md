@@ -265,3 +265,37 @@ felt, suggested an inclusive and diverse Americanism. The Cuban also identified 
 Whitman’s prose rebellion against “coy lyrics” that whispered of courtly love, be-  
 lieving that it captured the energy of a “new humanity congregated on a fertile con-  
 tinent . . . the renewal of mankind.” 9
+
+# [@andersonImaginedCommunitiesReflections2016]
+> Los criollos protestantes de habla inglesa, en el Nor-  
+> te, estaban mucho más favorablemente situados para la  
+> realización de la idea de "América", y en efecto logra-  
+> ron apropiarse finalmente el gentilicio común de "ame-  
+> ricanos". Las Trece Colonias originales abarcaban un te-  
+> rritorio menor que el de Venezuela, y apenas la tercera parte de Argentina. 51 Unidas en lo geográfico, sus cen-  
+> tros de mercado en Boston, Nueva York y Filadelfía eran  
+> fácilmente accesibles entre sí, y sus poblaciones estaban  
+> un tanto unidas por la imprenta y el comercio. Los "Es-  
+> tados Unidos" pudieron multiplicar poco a poco el nú-  
+> mero de sus habitantes durante los siguientes 183 años,  
+> a medida que las poblaciones antiguas y las nuevas  
+> avanzaban hacia el Oeste dejando atrás el antiguo nú-  
+> cleo de la costa oriental.
+> 
+> 100
+
+
+> Lo  
+> que estoy proponiendo es que ni el interés económico,  
+> ni el liberalismo o la Ilustración, podrían haber creado  
+> por sí solos la clase o la forma de la comunidad imagina-  
+> da que habrá de defenderse contra las depredaciones  
+> de estos regímenes; dicho de otro modo, ninguno de es-  
+> tos conceptos proveyó el marco de una nueva concien-  
+> cia —la periferia de una imagen que apenas se distin-  
+> gue— por oposición a los objetos centrales de su agrado  
+> o aversión. 5 Al realizar esta tarea específica, los funcio-  
+> narios criollos peregrinos y los impresores criollos pro-  
+> vinciales desempeñaron un papel histórico decisivo.
+> 
+> 101

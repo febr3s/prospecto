@@ -1,5 +1,9 @@
 20201215112329
 
+#capítulo4
+
+# [@lynchBolivarLife]
+
 > In Colombia there is an aristocracy of rank, office and wealth, equivalent  
 > by its influence, pretensions and pressure on the people, to the most  
 > despotic aristocracy of titles and birth in Europe. Included in the ranks  
@@ -16,8 +20,7 @@
 
 Aquí queda en evidencia cómo el approach anti-aristocrático de Rodríguez no estaba del todo reñido con las apreciaciones de Bolívar --lo que pasa, también, como ya sabemos, es que Bolívar nunca se planteó producir una obra coherente, ni legible.
 
-
-### Vieira, Marco. “The decolonial subject and the problem of non-Western authenticity”. _Postcolonial Studies_, vol. 22, no 2, Routledge, abril de 2019, pp. 150–67. _Taylor and Francis+NEJM_
+# [@vieiraDecolonialSubjectProblem2019]
 
 > As I discuss next, in the case of Bolívar the maintenance of internal racial hierarchies,  
 > which European descendants sit atop, was more markedly evident than in L’Overture’s  
@@ -38,7 +41,7 @@ Aquí queda en evidencia cómo el approach anti-aristocrático de Rodríguez no 
 > 162
 
 
-###### Simon, Joshua. _The Ideology of Creole Revolution : Imperialism and Independence in American and Latin American Political Thought_. Cambridge : Cambridge University Press, 2017.
+# [@simonIdeologyCreoleRevolution2017]
 
 > Eventually, though, in every part of the Americas claimed,  
 > colonized, and ruled by Europeans, “a concept of nobility based funda-  
