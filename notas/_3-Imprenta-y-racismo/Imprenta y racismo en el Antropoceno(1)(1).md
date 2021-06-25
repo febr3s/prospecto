@@ -1,0 +1,32 @@
+
+
+Benedict Anderson considera el impacto de la imprenta como uno de los factores que, junto al cambio económico y las innovaciones tecno-científicas y sociales, introdujeron “una cuña entre la cosmología y la historia” a partir del siglo XVI en Occidente. Considera que estos cambios dieron al traste con las antiguas concepciones culturales que ejercían un “control axiomático sobre las mentes de los hombres”. El nacionalismo habría surgido llenando el vacío dejado por el debilitamiento de estas concepciones culturales, e impulsado por la “novedad sincrónica” que permitió a grandes grupos de personas la ilusión de que llevan vidas paralelas a las de otros grupos, y “pensaran acerca de sí mismos, y se relacionaran con otros, en formas profundamente nuevas”. Esta novedad sincrónica es definida como “una acumulación de innovaciones técnicas en los campos de la construcción de barcos, la navegación, la relojería y la cartografía, mediadas todas ellas por el capitalismo de imprenta” (62, 265). Así, la novela y el periódico serían las “formas de la imaginación” que permitieron darle forma y leer  la nueva experiencia de un tiempo “homogéneo y vacío”, como el que caracteriza @benjaminIluminaciones2018 en las _Tesis sobre la historia_ (). Estas tecnologías culturales serían las que permiten la conexión imaginada de hechos arbitrariamente yuxtapuestos e incluidos en una misma serie de sentido, solo por su coincidencia en el calendario, tal como se presentan en la prensa (46, 57). 
+
+El modelo de Anderson deja fuera la experiencia singular de la primera ola de descolonización con estas tecnologías culturales. Es decir, a pesar de que _Imagined Communities_ dedica una parte importante de su análisis sobre la formación de las nacionalidades a las revoluciones de Independencia suramericana, y otra parte al impacto de estas tecnologías culturales en el proceso de formación de las naciones, estas dos series solo se cruzan muy superficialmente.
+
+El impacto de la imprenta en la cosmovisión moderna debe considerarse tanto en el ámbito del consumo cultural como en el de los medios de producción. Marshal McLuhan caracterizó detalladamente en *La galaxia de Gutenberg* y lateralmente en otras de sus obras la dimensión específica y directamente perceptiva de este impacto. Destaca el aislamiento y jerarquización del sentido de la vista respecto a los otros sentidos, y el impulso de una "era lineal" narrativa, en detrimento del diálogo medieval escolástico (129). Pero también señala –aunque con menos desarrollo– el modo en que la imprenta incidió en la transformación de los medios de producción y circulación de mercancías. La imprenta contribuyó sustancialmente a la creación del sistema de precios (164) y proveyó la primera mercancía uniformememente repetida, la primera línea de ensamblaje y la primera manufactura automatizada (124, 151) del capitalismo global. Por eso, según Jason Moore, la imprenta fue "perhaps the most prefigurative advance in labor productivity" antes de la máquina de vapor de Watt (186). Es decir, así como el modo de consumo cultural que dispuso el libro impreso impactó en la subjetividad individual de los lectores, los patrones de automatización, productividad y repetición que impulsó la máquina de imprimir transformaron la sociedad en la que estos habitaban.
+
+Del mismo modo, el racismo impacta en la subjetividad europea tanto por sus consecuencias económicas como por sus consecuencias en la percepción de la realidad. Por un lado, la concepción racializada de las poblaciones colonizadas –como cuerpos menos cercanos a la humanidad o directamente animales– habilitó la trata masiva de esclavos y la reducción de indígenas a la servidumbre, ambos procesos indispensables para el proceso de acumulación originaria (Grosfoguel). 
+
+
+> Esta reciente novedad sincrónica sólo pudo surgir his-  
+> tóricamente cuando grandes grupos de personas estu-  
+> vieron en posición de considerar que llevaban vidas pa-  
+> ralelas a las de otros grupos: si nunca se encontraban,  
+> ciertamente procedían a lo largo de la misma trayecto-  
+> ria. Entre 1500 y 1800, una acumulación de innovacio-  
+> nes técnicas en los campos de la construcción de barcos,  
+> la navegación, la relojería y la cartografía, mediadas to-  
+> das ellas por el capitalismo de imprenta, estaba hacien-  
+> do posible este tipo de imaginación
+> 
+> 261
+
+Por otra, el tropo del esclavo recorrió la dicotomía fundamental del pensamiento liberal, en la que el opuesto del humano/libre es recurrentemente esclavo/naturaleza (cfr Rousseau, Locke, Milton, Filmer). La proverbial "gran división" (Descola) del humano y la naturaleza del siglo XVII ocurrió en sincronía, si no como consecuencia, de una división entre una y otra parte de los miembros de la especie. Así, los individuos favorecidos por el crecimiento económico exponencial que permitió la organización racial del trabajo estructuraron una cosmovisión de la libertad como separación y dominio de la naturaleza. Y lo hicieron empleando de forma especulativa los mismos conceptos que estructuraban ese modo de producción, como ha demostrado Susan Buck Morrs en su Hegel y Haiti.
+
+Este régimen trópico no es propio ni original del pensamiento moderno, sino una versión *turbo* del de Aristóteles y Platón (Arendt). Pero la posibilidad de su mundialización empírica –parte del mercado y la literatura mundial que Marx y Engels tipifican en el _Manifiesto_ de 1848–   está directamente ligada a dos factores de poder relacionados directamente con el racismo y la imprenta: el poder económico fue habilitado la división racial del trabajo y explotación de la naturaleza en escala trasatlántica, y el poder mediático que habilitó la implementación europea de los tipos móviles. 
+
+Y en su escala global, devino en los regímenes inéditos de la abstracción absoluta del trabajo y explotación ilimitada de la naturaleza.
+
+En la discusión sobre las humanidades frente al Antropoceno, varios autores coinciden en señalar que en el largo siglo XVI los europeos empezaron a postular y a producir una humanidad autoconcebida como entidad separada a la vez que rectora de la naturaleza (cfr Dipesh Chakravorty, Jason Moore, Phillipe Descola). Pero esta suerte de genealogía de la subjetividad de la modernidad capitalista en la que coinciden algunas de las voces más autorizadas en la discusión del Antropoceno, hay dos fenómenos que aparecen poco considerados: el racismo y la imprenta.
+
