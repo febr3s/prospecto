@@ -1,75 +1,26 @@
-Benedict Anderson considera el impacto de la imprenta como uno de los factores que, junto al cambio económico y las innovaciones tecno-científicas y sociales, introdujeron “una cuña entre la cosmología y la historia” a partir del siglo XVI en Occidente. Considera que estos cambios dieron al traste con las antiguas concepciones culturales que ejercían un “control axiomático sobre las mentes de los hombres”. El nacionalismo habría surgido llenando el vacío dejado por el debilitamiento de estas concepciones culturales, e impulsado por la “novedad sincrónica” que permitió a grandes grupos de personas la ilusión de que llevan vidas paralelas a las de otros grupos, y “pensaran acerca de sí mismos, y se relacionaran con otros, en formas profundamente nuevas”. Esta novedad sincrónica es definida como “una acumulación de innovaciones técnicas en los campos de la construcción de barcos, la navegación, la relojería y la cartografía, mediadas todas ellas por el capitalismo de imprenta” (62, 265). Así, la novela y el periódico serían las “formas de la imaginación” que permitieron darle forma y leer  la nueva experiencia de un tiempo “homogéneo y vacío”, como el que caracteriza @benjaminIluminaciones2018 en las _Tesis sobre la historia_ (). Estas tecnologías culturales serían las que permiten la conexión imaginada de hechos arbitrariamente yuxtapuestos e incluidos en una misma serie de sentido, solo por su coincidencia en el calendario, tal como se presentan en la prensa (46, 57). 
-
-# lo que aporta: la noción racial de lo criollo
-Definición del _throwness_ en 91-92, y su ciego optimismo en la nota al pie. Luego tiene una cita en 95 y 96. 
-
-Sobre la insuficiencia de la explicación económica (83-84). Deja de lado lo que tiene de destino trágico, de _throwness_, la condición colonial, y la posición estructuralmente subalterna de los criollos, su impedimento congénito para la captura de renta.
-
-Muy buena la cita eugenésica de Valignano, para pensar el problema del racismo en términos extraeuropeos, y el punto de la sangre corrupta. Y sobre el aumento exponencial de la esclavitud en proporción a una más rígida exclusión racial (94)
-
-# lo que falla en la dimensión subjetiva: no considera la sujeción especulativa de los cuerpos no-blancos
-El foul estructural: pensar que la única forma de ser “tocado” por el capitalismo impreso es leyendo
-
-> 13 (Podríamos aña-
-> dir: a pesar de que el capitalismo impreso no había lle-
-> gado todavía a estos analfabetos.)
-> 80
-
- > Así pues, en términos de la  
-> historia mundial fueron las burguesías las primeras clases que alcanzaron la solidaridad esencialmente con  
-> base en la imaginación.
-> 
-> 115-116
-
-> Los sueños del racismo tienen efectivamente su ori-  
-> gen en ideologías de clase más que en la de nación: so-  
-> bre todo en las pretensiones de divinidad de los gober-  
-> nantes y de sangre "azul" o "blanca" y la "crianza" entre  
-> las aristocracias. 17 No es sorprendente así que el padre putativo del racismo moderno no sea algún nacionalista  
-> pequeño burgués sino Joseph Arthur, conde de Gobi-  
-> neau. 18 Ni que, en general, el racismo y el antisemitismo  
-> no se manifiesten a través de las fronteras nacionales  
-> sino dentro de ellas. En otras palabras, no justifican  
-> tanto las guerras extranjeras como la represión y la do-  
-> minación internas.
-> 
-> 211
-
-# lo que falla en la dimensión objetiva: las diferencias estructurales entre las dos Américas en lo que respecta a las nociones de raza y a la circulación de la imprenta
-
-> "La introducción de la imprenta fue así, en este sentido, una eta-
-> pa en el camino hacia nuestra sociedad actual de consumo masivo y
-> de estandarización."
-> 64
-
-Para introducir, lo que si considera de su impacto en las relaciones de producción. Esto también está en McLuhan, habría que ver si en Lefebvre estuvo antes y también McLuhan robó
 
 
-Analogía problemática entre el esclavismo y racismo gringo y el criollo (79)
+El modelo de Benedict Anderson para el análisis del printing press en la formación de lad nacionalidades[^3] deja fuera la experiencia singular de la primera ola de descolonización con estas tecnologías culturales. Es decir, a pesar de que _Imagined Communities_ dedica una parte importante de su análisis sobre la formación de las nacionalidades a las revoluciones de Independencia luso-hispano-americana, y otra parte al impacto de estas tecnologías en el proceso de formación de las naciones, estas dos series solo se cruzan muy superficialmente. En su análisis asoma los elementos fundamentales para entender cómo las nociones de raza y la tecnología impresa se combinan en la experiencia colonial para bring into existence what he calls “printed capitalism”, y cómo los proyectos de descolonización pusieron en crisis esas nociones. Pero hay fallas en su modelo que no le permiten seguir avanzando en esa dirección. 
 
-> El uso de la imprenta se extendió muy pronto a la
-> Nueva España, pero durante dos siglos permaneció bajo
-> el control estricto de la Corona y la Iglesia. Todavía a
-> fines del siglo xvii sólo había imprentas en la ciudad de
-> México y en Lima, y su producción era casi exclusiva-
-> mente eclesiástica. En la Norteamérica protestante casi
-> no hubo ninguna imprenta en ese siglo. En el curso del
-> siglo XVIII, sin embargo, ocurrió una virtual revolución.
-> Entre 1691 y 1820 se publicaron no menos de 2 120 "pe-
-> riódicos", 461 de los cuales sobrevivieron más de 10
-> anos.
+Alejo @carpentierCuandoNegroSe recuerda la primera impresión de la palabra “criollo”, en un texto de Juan López Velasco publicado entre 1571 y 1574 en México:  
+> Los españoles que pasan a aquellas partes \[léase: América\] y están en ellas mucho tiempo, con la mutación del cielo y del temperamento de las regiones no dejan de recibir alguna diferencia en el color y la calidad de sus personas; pero los que nacen en ellas se llaman criollos, y aunque en todo son tenidos y habidos por españoles, conocidamente salen ya diferentes en el color y el tamaño.
 
-> 96
+La contribución más seductora de Anderson para la comprensión de la POD es poner sobre la mesa la racialización de la población auto-considerada “blanca”en la América luso-hispana, y considerar cómo estas condiciones contribuyeron a la formación de una clase de sujeto condenado por el azar a una  posición subalterna[^2]: “[a]unque hubiese nacido a la semana de la migración de su padre, el accidente del nacimiento en las Américas lo condenaba [al criollo] a la subordinación, aunque en términos de lengua, religión, ascendencia o maneras fuese en gran medida indistinguible del español peninsular” (91-92).  Como bien señala Anderson, las explicaciones economicistas son insuficientes para explicar el esfuerzo colosal de la primera descolonización: buena parte de la clase alta gastó todo, incluso la vida, sin ninguna garantía de retorno (83-84). Pero esto no quiere decir que no haya una motivación económica, sino que la motivación económica es romper la _condena_ que, en términos fanonianos, impedía congénitamente a los criollos el acceso al poder político para controlar la captura de renta sobre la naturaleza.  Bolívar lo expresa en estos términos en un artículo publicado en la _Gazeta de Jamaica_ en 1818:  (). El problema de la “sangre corrupta” (94) era un problema político en lo inmediato, pero con consecuencias económicas definitivas a mediano y largo plazo.Y sobre este problema se organiza el “capitalismo impreso” en la primera ola de descolonización.
 
+Pero el impacto económico del “capitalismo impreso”, en el modelo eurocéntrico de Anderson, no se relaciona con el impacto subjetivo –del que forman parte las nociones de raza y humanidad– que impulsa el poder mediático de la imprenta, sino con la condición de mercancía del libro. Fundamentalmente, Anderson asume, a veces de forma casi textual, las contribuciones de McLuhan al respecto, por lo cual me referiré al segundo[^1]. Este señala el modo en que la imprenta incidió en la transformación de los medios de producción y circulación de mercancías. La imprenta contribuyó sustancialmente a la creación del sistema de precios (164) y proveyó la primera mercancía uniformememente repetida, la primera línea de ensamblaje y la primera manufactura automatizada (124, 151) del capitalismo global. En palabras de Lucien Lefebvre, “[l]a introducción de la imprenta fue así, en este sentido, una etapa en el camino hacia nuestra sociedad actual de consumo masivo y de estandarización”.[citado por @andersonComunidadesImaginadasReflexiones2006 64]. Por eso Jason @mooreCapitalismWebLife2015 afirma que la imprenta fue "perhaps the most prefigurative advance in labor productivity" antes de la máquina de vapor de Watt (186). Es decir, para McLuhan y Anderson está, por un lado, el modo de consumo cultural que dispuso el libro impreso y que impactó en la subjetividad individual de los lectores; y por otro, los patrones de automatización, productividad y repetición que impulsó la máquina de imprimir transformaron la sociedad en la que estos habitaban. 
 
-Faul épico en 100, donde considera que había “elasticidad afectiva” en el nacionalismo gringo, sin considerar el problema de la raza, que también es fundamental para comprender las guerras de secesión en Hispanoamérica que él menciona (donde también hay una exactitud bastante seria al decir que Colombia se separó por una guerra).
+Sin embargo, este impacto en los medios de producción y consumo no ocurrió en la experiencia colonial de la América hispana. Tras la creada en Nuevo México en 1539 –la primera de toda América– , solo cuatro imprentas más se inauguraron hasta 1705, y comienza un crecimiento en el que se pasa de tres imprentas en promedio por siglo, a 14 en el siglo XVIII, a 44 solo en el primer cuarto del siglo XIX [@medinaHistoriaImprentaAntiguos 11]. Esta suerte de revolución muy tardía de la imprenta en la América hispana no es previa sino simultánea a la POD, y esta tensión discrónica obliga a pensar la relación entre subjetividad y condiciones materiales en términos distintos al determinismo al que suele inclinarse Anderson. Para analizar el rol de la imprenta en la POD es necesario concebir al “capitalismo impreso”, no como la mera producción y circulación de medios impresos, sino como un sistema global, que impacta también en sociedades donde no se producen ni se consumen libros.
 
-En 96 pone sobre la mesa los hechos que permiten identificar una diferencia estructural en la formación de las nacionalidades en los países del atlántico norte y en el Caribe y Suramérica, pero no los considera en su análisis. 
+Cuando @andersonComunidadesImaginadasReflexiones2006 afirma que “el capitalismo impreso no había llegado todavía a estos analfabetos [indígenas del Perú en el siglo XIX]” (80), asume que el “capitalismo impreso” se reduce al acceso puntual y directo a la letra impresa. Pero el “capitalismo impreso” no _llega_ a una población solo con el consumo y producción de libros. Mucho más trascendente que el hecho de que un hombre o mujer de herencia aymara o inca conozca o no el sistema alfabético es “the naturalization of the cultural differences between human groups by means of their codification with the idea of race” [@quijanoColonialityPowerEurocentrism2008, 201]. La noción de indígena –producto sin duda del “capitalismo impreso”– _llegó_ a ese hipotético poblador originario a quien San Martín llama peruano no solo independientemente de que supiera leer o tuviera acceso a un libro, sino incluso antes de haber nacido –y llega aún a los lectores de Benedict Anderson desde 1991.  Si para Anderson “en términos de la  historia mundial fueron las burguesías las primeras clases que alcanzaron la solidaridad esencialmente con base en la imaginación” (115-116), lo que concierne más directamente al sujeto colonial es cómo esa imaginación estructura la premisa según la cual “[a]ccording to the myth of the state of nature and the chain of the civilizing process that culminates in European civilization, some races (…) are closer to nature than whites” [@quijanoColonialityPowerEurocentrism2008 203]. La noción racializada del criollo que se expresa en el artículo de Bolívar en el periódico jamaiquino en 1818 obedece mucho más a los acontecimientos imprevistos que al proyecto original. Sin embargo, como detallaremos en el resumen del capítulo 1, la sobredeterminación racial de la clase “criolla” en el “capitalismo impreso” es desde las primeras conspiraciones una tentativa de sobreponerse a los límites que impone esa sobredeterminación. 
+
+En mi trabajo me ocupo específicamente de ámbitos de producción y consumo de medios impresos a partir de 1801, pero tengo muy presente que estos proyectos pioneros de la imprenta en la América luso-hispana no representan la _llegada_ del “capitalismo impreso” sino puntualmente la inserción de los criollos como productores en ese sistema. 
 
 
-# las consecuencias de las fallas en el modelo para su trabajo de análisis
 
 ## subestimación de la historia iberoamericana de la imprenta
+
+Es decir, así como 
+
 > La "ru-  
 > sificación" de la población heterogénea de los subditos  
 > del zar representaba así una fusión violenta, conscien-  
@@ -182,6 +133,38 @@ Esto también parece que se lo robó de McLuhan, y después lo lleva a su análi
 > 
 > 96
 
+
+# lo que falla en la dimensión subjetiva: no considera la sujeción especulativa de los cuerpos no-blancos
+
+Analogía problemática entre el esclavismo y racismo gringo y el criollo (79)
+
+Faul épico en 100, donde considera que había “elasticidad afectiva” en el nacionalismo gringo, sin considerar el problema de la raza, que también es fundamental para comprender las guerras de secesión en Hispanoamérica que él menciona (donde también hay una exactitud bastante seria al decir que Colombia se separó por una guerra).
+
+En 96 pone sobre la mesa los hechos que permiten identificar una diferencia estructural en la formación de las nacionalidades en los países del atlántico norte y en el Caribe y Suramérica, pero no los considera en su análisis. 
+
+a pesar de sus consideraciones del problema racial, este se agota en un optimismo bienpensante y no se integra en el modelo de análisis
+
+Marshal McLuha destaca el aislamiento y jerarquización del sentido de la vista respecto a los otros sentidos, y el impulso de una "era lineal" narrativa, en detrimento del diálogo medieval escolástico (129). 
+
+Del mismo modo, el racismo impacta en la subjetividad europea tanto por sus consecuencias económicas como por sus consecuencias en la percepción de la realidad. Por un lado, la concepción racializada de las poblaciones colonizadas –como cuerpos menos cercanos a la humanidad o directamente animales– habilitó la trata masiva de esclavos y la reducción de indígenas a la servidumbre, ambos procesos indispensables para el proceso de acumulación originaria (Grosfoguel). Por otra, el tropo del esclavo recorrió la dicotomía fundamental del pensamiento liberal, en la que el opuesto del humano/libre es recurrentemente esclavo/naturaleza (cfr Rousseau, Locke, Milton, Filmer). La proverbial "gran división" (Descola) del humano y la naturaleza del siglo XVII ocurrió en sincronía, si no como consecuencia, de una división entre una y otra parte de los miembros de la especie. Así, los individuos favorecidos por el crecimiento económico exponencial que permitió la organización racial del trabajo estructuraron una cosmovisión de la libertad como separación y dominio de la naturaleza. Y lo hicieron empleando de forma especulativa los mismos conceptos que estructuraban ese modo de producción, como ha demostrado Susan Buck Morrs en su Hegel y Haiti. Este régimen trópico no es propio ni original del pensamiento moderno, sino una versión *turbo* del de Aristóteles y Platón (Arendt). Pero la posibilidad de su mundialización empírica –parte del mercado y la literatura mundial que Marx y Engels tipifican en el _Manifiesto_ de 1848–   está directamente ligada a al poder económico fue habilitado mediante la división racial del trabajo y la explotación de la naturaleza en escala trasatlántica, y el poder mediático que habilitó la implementación europea de los tipos móviles. 
+
+
+
+> Los sueños del racismo tienen efectivamente su ori-  
+> gen en ideologías de clase más que en la de nación: so-  
+> bre todo en las pretensiones de divinidad de los gober-  
+> nantes y de sangre "azul" o "blanca" y la "crianza" entre  
+> las aristocracias. 17 No es sorprendente así que el padre putativo del racismo moderno no sea algún nacionalista  
+> pequeño burgués sino Joseph Arthur, conde de Gobi-  
+> neau. 18 Ni que, en general, el racismo y el antisemitismo  
+> no se manifiesten a través de las fronteras nacionales  
+> sino dentro de ellas. En otras palabras, no justifican  
+> tanto las guerras extranjeras como la represión y la do-  
+> minación internas.
+> 
+> 211
+
+# las consecuencias de las fallas en el modelo para su trabajo de análisis
 ## invisibilización del supranacionalismo
 ### el acierto de identificar el dispositivo imperial de separación
 > La extensión in-
@@ -264,3 +247,8 @@ Sobre la peregrinación, su equivalente en el viaje del funcionario feudal y su 
 Otro robo de McLuhan, hasta cierto punto aunque lo que nos interesa aquí es otra cosa
 
 
+[^1]: aunque ningunea _La Galaxia de Gutenberg_ como una serie de vaguedades con un solo hecho sólido ()
+[^2]: los problemas que plantea esta subalternidad de la clase dominante en la América luso-hispana es parte de lo que voy a explorar en la siguiente sección, de revisión bibliográfica, cuando examine las discusiones sobre descolonización.
+[^2]: 
+
+[^3]: Benedict Anderson considera el impacto de la imprenta como uno de los factores que, junto al cambio económico y las innovaciones tecno-científicas y sociales, introdujeron “una cuña entre la cosmología y la historia” a partir del siglo XVI en Occidente. Considera que estos cambios dieron al traste con las antiguas concepciones culturales que ejercían un “control axiomático sobre las mentes de los hombres”. El nacionalismo habría surgido llenando el vacío dejado por el debilitamiento de estas concepciones culturales, e impulsado por la “novedad sincrónica” que permitió a grandes grupos de personas la ilusión de que llevan vidas paralelas a las de otros grupos, y “pensaran acerca de sí mismos, y se relacionaran con otros, en formas profundamente nuevas”. Esta novedad sincrónica es definida como “una acumulación de innovaciones técnicas en los campos de la construcción de barcos, la navegación, la relojería y la cartografía, mediadas todas ellas por el capitalismo de imprenta” (62, 265). Así, la novela y el periódico serían las “formas de la imaginación” que permitieron darle forma y leer  la nueva experiencia de un tiempo “homogéneo y vacío”, como el que caracteriza @benjaminIluminaciones2018 en las _Tesis sobre la historia_ (). Estas tecnologías culturales serían las que permiten la conexión imaginada de hechos arbitrariamente yuxtapuestos e incluidos en una misma serie de sentido, solo por su coincidencia en el calendario, tal como se presentan en la prensa (46, 57). 
