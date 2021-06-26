@@ -299,3 +299,39 @@ tinent . . . the renewal of mankind.” 9
 > vinciales desempeñaron un papel histórico decisivo.
 > 
 > 101
+
+
+## subestimación de la historia iberoamericana de la imprenta
+
+Es decir, así como 
+
+> La "ru-  
+> sificación" de la población heterogénea de los subditos  
+> del zar representaba así una fusión violenta, conscien-  
+> te, de dos órdenes políticos opuestos, uno antiguo y otro  
+> nuevo. (Aunque hay cierta analogía con la hispaniza-  
+> ción de las Américas y las Filipinas, por ejemplo, subsiste  
+> una diferencia fundamental. Los conquistadores cultu-  
+> rales del imperio zarista de fines del siglo xix procedían  
+> con un maquiavelismo consciente, mientras que sus an-  
+> tecesores españoles del siglo xvi actuaban con un prag-  
+> matismo cotidiano inconsciente. Y el proceso no era  
+> para ellos en realidad una "hispanización" sino simple-  
+> mente una conversión de paganos y salvajes.)
+> 
+> 127
+
+¿Es decir, está reconociendo por omisión que la primera experiencia de nacionalización fue el imperio español, o al menos la primera de "fusión entre la nación y el imperio" (129)? Esto puede ser productivo en función de pensarlo como doble de la dicotomía realidad / realidad alternativa, es decir, como nacionalismo oficial de los imperios / nacionalismo ¿alternativo? de las colonias.
+
+Entre 106 y 113, hace una revisión de la lexicografía, los diccionarios bilingües y las gramáticas de lenguas vernáculas en Europa en los siglos XVIII a XIX como un hecho novedoso que dio forma al nacionalismo, pero no menciona a Nebrija, que fue mucho antes, y de más alcance
+
+
+
+La diferenciación y analogía es muy limitada, pues se pierde el hecho de que en la diferencia es que se produce el sentido histórico
+
+> En la América espa-
+> ñola ocurrieron hechos similares, aunque en forma más
+> lenta e intermitente, en la segunda mitad del siglo xvm,
+> 47
+> que dieron lugar a las primeras imprentas locales.
+> 97

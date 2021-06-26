@@ -1,9 +1,31 @@
-# lo que aporta: la noción racial de lo criollo
+# lo que aporta: la noción racial de lo criollo y la comunidad imaginada _a la_ francesa
 Definición del _throwness_ en 91-92, y su ciego optimismo en la nota al pie. Luego tiene una cita en 95 y 96. 
 
 Sobre la insuficiencia de la explicación económica (83-84). Deja de lado lo que tiene de destino trágico, de _throwness_, la condición colonial, y la posición estructuralmente subalterna de los criollos, su impedimento congénito para la captura de renta.
 
 Muy buena la cita eugenésica de Valignano, para pensar el problema del racismo en términos extraeuropeos, y el punto de la sangre corrupta. Y sobre el aumento exponencial de la esclavitud en proporción a una más rígida exclusión racial (94)
+
+## concatenación
+
+> Observa Hobsbawm: "La Revolución francesa no fue
+> hecha o encabezada por un partido o un movimiento
+> formado en el sentido moderno, ni por hombres que
+> trataran de implantar un programa sistemático. Casi no
+> produjo 'dirigentes' de la clase a la que nos han acos-
+> tumbrado las revoluciones del siglo xx, antes del surgi-
+> miento de la figura de Napoleón después de la Revolu-
+> ción."32 Pero una vez ocurrida, aprovechó la memoria
+> acumulada por los textos impresos. La concatenación
+> abrumadora y desconcertante de los sucesos experi-
+> mentada por sus forjadores y sus víctimas se convirtió
+> en una "cosa" dotada de nombre propio: La Revolución
+> francesa. Como una gran roca informe que se convier-
+> te en una peña redonda por la acción de incontables
+> gotas de agua, la experiencia se forjó por millones de
+> palabras impresas hasta convertirse en un "concepto"
+> de la página impresa y, con el tiempo, en un modelo.
+>    
+> 120
 
 # lo que falla en la dimensión subjetiva: no considera la sujeción especulativa de los cuerpos no-blancos
 El foul estructural: pensar que la única forma de ser “tocado” por el capitalismo impreso es leyendo
