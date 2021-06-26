@@ -1,4 +1,4 @@
-###### Jáuregui, Carlos A. _Espectros y Conjuras : Sedios a La Cuestión Colonial_. Vervuet, 2019. /z-wcorg/.
+# Jáuregui, Carlos A. _Espectros y Conjuras : Sedios a La Cuestión Colonial_. Vervuet, 2019. /z-wcorg/.
 
 
 33Jáuregui piensa la escritura colonial "como un gesto

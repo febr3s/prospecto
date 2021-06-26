@@ -1,7 +1,7 @@
 El gesto de la experimentación tipográfica puede leerse --están todos los indicios para hacerlo-- como una tentativa de imprimir la huella del trabajo manual en el producto intelectual. E implicaba ya una reflexión sobre la reproducción técnica, no previa sino paralela o análoga a la de Benjamin.
 
 
-### Schwarz, Roberto. “Las ideas fuera de lugar”. _MERIDIONAL Revista Chilena de Estudios Latinoamericanos_, 2014, p. 17.
+# Schwarz, Roberto. “Las ideas fuera de lugar”. _MERIDIONAL Revista Chilena de Estudios Latinoamericanos_, 2014, p. 17.
 
 > En consecuencia, un latifundio poco modificado vio pasar los estilos barroco, neoclásico, romántico, naturalista, modernista y otros, que en Europa acompañaron y reflejaron inmensas transformaciones del orden social
 > 

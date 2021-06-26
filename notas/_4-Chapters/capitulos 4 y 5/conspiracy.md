@@ -45,7 +45,7 @@ La anécdota completa de Macedonio en 1
 
 
 
-### Jáuregui, Carlos A. _Espectros y Conjuras : Sedios a La Cuestión Colonial_. Vervuet, 2019. /z-wcorg/.
+# Jáuregui, Carlos A. _Espectros y Conjuras : Sedios a La Cuestión Colonial_. Vervuet, 2019. /z-wcorg/.
 
 > Así, los cuerpos y fenómenos que no son visibles, que no están  
 > o que están en espíritu (como diría Derrida) son visibles como apa-  

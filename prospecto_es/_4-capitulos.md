@@ -10,7 +10,7 @@ Particularmente, regarding printing capitalism, considero relevante observar que
 
 En este sentido resulta muy significativa la fuente del nombre Colombia que podría asociarse más directamente a la subalternidad: la poeta esclavizada de origen africano Phillys Weathley, que se hizo famosa por un poema a George Washington, en el que se encuentra una de las primeras impresiones del nombre Columbia. Miranda la conoció mientras estuvo en Estados Unidos, como dejó anotado en su diario en días cercanos a su muerte, que ocurrió durante su estadía [@delcastilloInventingColumbiaColombia2019]  (). Si la devoción de Miranda por Colón estaba –como demuestra la evidencia textual– motivada por un reconocimiento en él de la opresión experimentada por los criollos[^5], Weathley se le debe haber presentado como un paradigma de solidaridad  libertaria entre criollos amos sin derechos políticos y no-blancos esclavos o siervos sin derechos ciudadanos. Como veremos en el resumen del  próximos capítulo, este va a ser el modelo que va a entrar en crisis y transformación profunda durante el interregno, y sobre cuyas tentativas de restauración se van a organizar las tensiones impresas entre el proyecto emancipador colombista y el proyecto neocolonial de las oligarquías y los nuevos imperialismos.
 
-# Capítulo 2
+# Capítulo 2: Nosotros, nuestros hermanos, las bestias
 En este capítulo analizo, a través de algunas piezas impresas por Simón Bolívar entre 1813 y 1819, cómo se produjo la crisis del modelo color-blind  mirandino, dando lugar a una serie de intuiciones que apuntan a un modelo racial de heterogeneidad no-dialéctica[^8] –el mismo que luego desarrollará en profundidad Simón Rodríguez, como analizaré en el capítulo 5.  Antes de referirme a estas piezas voy a hacer algunas observaciones sobre el modelo de democracia US American, para indicar cómo el modelo mirandino –también intentado por Bolívar, con variaciones, hasta 1815– trató de emularlo en un contexto radicalmente distinto, dando lugar a las catastróficas consecuencias que shaped las novedosas nociones de Bolívar.  
 
 Para En las últimas páginas de _Comunidades Imaginadas_, Anderson propone una serie de ideas sobre el racismo cuyo análisis revela tanto las bases materiales de la (US) American Revolution como el poder del mito que aún hoy las legitima.
@@ -33,7 +33,7 @@ Quarterly and Literary Gazette_, por intermediación del agente colombista Pedro
 
 Dada la simultaneidad de la escritura de ambos artículos, me interesan particularmente los criterios mediante los cuales se ocultan o se revelan ante el público lector las profundas incertidumbres que definen el problema racial luso-hispano-americano. Particularmente, cuáles son las condiciones que llevan a insertar en el sistema del capitalismo impreso –a cuyo corazón se dirige, publicada en una colonia del imperio británico–, una noción de “the great South-American Continent”, como una región donde “the most important events are obscured, as it were, in darkness, and consequently none but the most vague and imperfect conjectures can be formed of them” [@bolivarGeneralBolivarLetter1975 84]. Estas incertidumbres ya habían sido expresadas en el _Manifiesto de Carúpano_, el último documento público de Bolívar en Venezuela al final de la guerra social. Y la escritura de la Carta de Jamaica en 1815, dejan ver que esa noción ya habitaba el colombismo para la fecha de redacción y envío para publicación del artículo de “El Americano”. Lo que voy a explorar para este capítulo es la relación de la publicación de “General Bolivar's Letter to a Friend, on the Subject of South-American Independence” en 1818 en Jamaica, con el lanzamiento de _El Correo del Orinoco_ el mes anterior de ese mismo año –el proyecto editorial más duradero del colombismo– y con las nociones de raza y gobernabilidad que propone Bolívar en 1819 en el “Discurso de Angostura”, publicado en este periódico.  
 
-# Capítulo 3
+# Capítulo 3: 
 En este capítulo exploro, a través de los documentos pertenecientes a la República de las Floridas, y de las notas en el _Correo del Orinoco_ sobre la apropiación US American de este territorio. Con este análisis me propongo arrojar luz sobre lo que oscurece la falla estructural más importante de Anderson en su análisis de la POD, que no le permite detectar que la vanguardia del capitalismo impreso –al menos mientras estuvo vigente el proyecto supranacional– no apuntó a reforzar las barreras de los nacionalismos (neo)coloniales, sino a disolverlas. Esta falla es que, aunque tiene presente la ambigüedad entre el localismo y el espíritu supranacional[^11], no considera los proyectos editoriales que más manifiestamente participaron como productores del capitalismo impreso en ese horizonte. En consecuencia, sus consideraciones de ese período de transición lo subsumen, como es usual, en la interpretación retrospectiva del nomos imperial-nacionalista que lo antecedió y lo sucedió. 
 
 Solo las tres primeras páginas del primer número del _Correo del Orinoco_ bastarían para probar los límites de la afirmación según la cual “[l]os criollos mexicanos podrían enterarse de los acontecimientos de Buenos Aires varios meses más tarde, pero lo harían por medio de periódicos mexicanos, no del Río de la Plata; y tales hechos aparecerían como 'similares' a los sucesos de México, no como 'parte' de ellos” (99). No queda claro si el caso de México y Buenos Aires es un ejemplo fortuito o concreto, y está fuera de los alcances de mi investigación probar si en esos casos particulares esto se puede sostener. Pero puede decirse con precisión que esa afirmación no es extrapolable al epicentro de la POD. Lo primero que se publica en el órgano de propaganda del colombismo de 1818, después de dos partes de guerra es: una carta a Bolívar del Director Supremo de las Provincias del Río de La Plata, Juan Martín de Pueyrredón; un comunicado de Pueyrredón a los “habitantes de Tierra-Firme” –Venezuela–, a los que llama “compatriotas”, y las respuestas respectivas de Bolívar, a Pueyrredón, y a los habitantes del Río de la Plata. Propone que estos, en Venezuela, “no serán tratados y recibidos aquí como miembros de una República amiga, sino como miembros de nuestra sociedad venezolana” ()
@@ -50,19 +50,7 @@ A partir de sus propias observaciones sobre el arte como un oficio propio de eco
 
 En _Luces y virtudes sociales_, Rodríguez teoriza lo que llama el “arte de pintar con las palabras”. Le obsesiona lo que McLuhan llama a separation "of head and heart" whose trauma would affect Europe "from Machiavelli to the present" (161, 170), y lo que Foucault considera a matter of the preeminence of an "absolute privilege of writing," as a masculine principle, and the sole holder of truth that breaks apart “[t]hings and words” (56-57). A esos fenómenos, Rodríguez opone una compleja serie de estrategias performáticas, que emula en su experimentación tipográfica. En este sentido, observo una tensión discrónica muy productiva respecto a su homólogo europeo más señalado, debido a la experimentación tipográfica: si Mallarmé se propuso imitar con la imprenta –una tecnología ya cuatricentenaria en Europa– el movimiento de la tecnología de comunicación más avanzada, como era el cine (), Rodríguez extremaba las posibilidades de la última novedad tecnológica –como lo era la libertad de imprenta–, para oponer resistencia al proyecto de la clase que la ostentaba.
 
-Este proyecto era ya la restitución del nomos imperial-nacional con el que había estado en tensión el proyecto supranacional bolivariano[^13]. En ese sentido, si, como propone [@andersonComunidadesImaginadasReflexiones2006], el carácter arbitrario del signo es una de las condiciones de posibilidad del nacionalismo (33), el arte de pintar con las palabras actúa como el poeta que “por debajo de las diferencias nombradas y cotidianamente previstas, reencuentra los parentescos huidizos de las cosas, sus similitudes dispersas” [@foucaultPalabrasCosasArqueologia2020 66], para, por un lado, deshacer esa mecánica neocolonizadora, y por otro, revolucionar la manera de comunicar, en un contexto donde, aún triunfando, el proyecto de neocolonización no garantiza el orden[^14]. Es, en cierto sentido, un anti-Bello, en tanto se opone al uso especulativo de las palabras en el mercado mundial que caracteriza @rosaSeisGradosAndres2006 en su trabajo sobre estética y finanzas en Andrés Bello. Pero en otro sentido, coincide con el gramático en asignarle una utilidad a los manejos estéticos del lenguaje. Aun si el programa que se proponen es antinómico en lo que corresponde a cómo se considera al mercado mundial, coinciden en una voluntad de orden a partir del lenguaje. Por eso me interesa contrastar en este capítulo las nociones de Rodríguez con las que se expresan en el primer número del proyecto de Bello, _Repertorio Americano_.
-
-
-
-## lo de cómo los commodities vacían el signo
-
-
-
-[@beckmanCapitalFictionsLiterature2013]
-> there is still much to be said about the uniqueness of the fictions born of Latin America’s first major experiment with capitalist modernization. The mirroring structures of belief undergirding literary and monetary fictions, for example, necessarily acquire special meaning in a region long accustomed to violent cycles of boom and bust wherein commodities and money “danced” (a key figure of the era), only to disappear into thin air with an oncoming crash. From within this context, paying attention to the circulation of money and commodities and to the exchange of meaning and metaphor in written texts promises to provide unique insights into how capitalism was imagined and lived.
-> 
-> xxi
-
+Este proyecto era ya la restitución del nomos imperial-nacional con el que había estado en tensión el proyecto supranacional bolivariano[^13]. En ese sentido, si, como propone [@andersonComunidadesImaginadasReflexiones2006], el carácter arbitrario del signo es una de las condiciones de posibilidad del nacionalismo (33), el arte de pintar con las palabras actúa como el poeta que “por debajo de las diferencias nombradas y cotidianamente previstas, reencuentra los parentescos huidizos de las cosas, sus similitudes dispersas” [@foucaultPalabrasCosasArqueologia2020 66], para, por un lado, deshacer esa mecánica neocolonizadora, y por otro, revolucionar la manera de comunicar, en un contexto donde, aún triunfando, el proyecto de neocolonización no garantiza el orden[^14]. Es, en cierto sentido, un anti-Bello, en tanto se opone al uso especulativo de las palabras en el mercado mundial que caracteriza @rosaSeisGradosAndres2006 en su trabajo sobre estética y finanzas en Andrés Bello. Pero en otro sentido, coincide con el gramático en asignarle una utilidad a los manejos estéticos del lenguaje. Aun si el programa que se proponen es antinómico en lo que corresponde a cómo se considera al mercado mundial, coinciden en una voluntad de orden a partir del lenguaje. Por eso me interesa contrastar en este capítulo las nociones de Rodríguez con las que se expresan en el primer número del proyecto de Andrés Bello, _Repertorio Americano_.
 
 # Capítulo 5
 En este capítulo analizo las últimas entregas publicadas del proyecto editorial _Sociedades americanas en 1828_: el volumen homónimo, publicado en Lima en 1842, y la versión de _Luces y virtudes sociales_ publicada en Valparaíso en 1840. Es la entrega más extensa, que al igual que las anteriores, contiene fragmentos de las previas. Es, también, la obra de Rodríguez donde con más detalle caracteriza –y llama El Plan–, el proceso neocolonial que estaba en marcha, por un lado, y por otro lado, el proyecto que proponía como contraparte y que había sugerido en obras anteriores bajo la consigna “colonizar el país con sus propios habitantes” (): un proyecto de ley para ocupar el territorio americano con settlements de nativos, que habrían de educarse y trabajar en las colonias, mientras los extranjeros solo se recibirían en edad escolar (). 
@@ -74,51 +62,7 @@ Como es usual en Rodríguez, en esta figura la ironía está en función de un c
 
 Esta última característica empalma con lo que puede revelar el término en la acepción etimológica –acepciones que Rodríguez tiene presente de manera casi obsesiva en la elección de su vocabulario: “criptógamo” viene del griego «κλυπτος» (kryptos) oculto y «γαμος» (gamos) que quiere decir unión o nupcias(). La familia no-blanca americana copula y se reproduce de manera incontrolada, y en ese sentido desestabiliza cualquier posible noción fija y segura de raza. Es, en ese sentido, un antagonista asimétrico de la familia blanca postulada por Franklin. El antagonista simétrico sería la ficción de la raza “latina”, postulada por Torres Caicedo y Rodó, o más aún la “raza cósmica” de Vasconcelos –pues la idea de la blancura del hemisferio  a los ojos de los habitantes de Venus de Franklin es literalmente una noción cósmica de raza. La noción de la familia de criptógamos sin más límites que los del océano es mucho más una ingeniería inversa del programa US American de colonos unificados por una dinastía racial, pues no reafirma el mito de lo “mismo” en una reificación del “otro” sino que apuesta por el descontrol subversivo de esas categorías.
 
-Propongo leer este proyecto anti-frankliniano de Rodríguez en relación con su noción de la existencia post-mortem de del proyecto supranacional. Para el momento de publicación de esta entrega de _Sociedades_ la maquinaria nacionalista de la oligarquía venezolana anticolombista tenía ya más de una década trabajando en función de su propio proyecto post-mortem: inmovilizar el proyecto supranacional, exaltando míticamente a Bolívar como “una figura suprema y creadora, capaz de personificar lo más puro del alma humana al igual que la perfectibilidad del hombre”, que garantizaba la unidad nacional y los intereses de la burguesía terrateniente [@carreradamasCultoBolivarEsbozo2013 49, 55-56, 58]. En su texto de 1842, Rodríguez ridiculizaba el traslado del cuerpo de Bolívar a Venezuela ese año, que había sido un hito en ese proceso de deificación 
 
-
-
-“If, always about to collapse, this scene of the people’s foundation must be reiterated again and again, this is precisely on account of the endemic inability of the nation’s republicanism to lastingly immobilize its citizen- audiences”  [@sanchezDancingJacobinsVenezuelan2016 195].
-
-
-
-## ¿autoencriptarse?
-Si “el espectro es algo en el mundo, solo que lo es como huella y en representación de ausencias” [@jaureguiEspectrosConjurasSedios2019 38], podemos leer en el fenómeno diaspórico continental contemporáneo –y más aún, en las ansiedades y paranoias migratorias de las administraciones US American contemporáneas– el espectro del proyecto supranacional colombista. 
-
-[@CounterfeitPolitics]
-> Piglia and Reed suggest that the  
-> “complot” (or “conspiracy”) is not a knowable agent, but rather takes  
-> place only as the interruption of the agency of the main narrative line.This emphasis on interruption signals the fact that secrecy itself is getting  
-> redefined in these narratives. Conspiracy theories do not simply reveal a
-> secret, as in detective fiction; rather, they present the demand that we  
-> read for the complot, that we bear witness to an incomprehensible event  
-> that never fully happens.
-> 
-> 10
-> Secrecy is therefore de-  
-> fined not as “invisibility” (it is not something that can appear and disap-  
-> pear), but rather as something that cannot be recognized and therefore  
-> understood. And yet it is precisely the unknowability of the secret that  
-> gives it force.
-> 
-> 11
-
-
-## masa y movimiento
-la fuerza material está en la masa, y la moral en el movimiento
-
-
-## negri, no
-Negri y Hardt prefieren en todo momento  
-> trascender la idea territorial, biológica y lingüística de la nación 4 , admiten: “In  
-> cases of diasporic populations, too, the nation seems at times to be the only con-  
-> cept available under which to imagine the community of the subaltern group—as,  
-> for example, the Aztlán is imagined as the geographical homeland of ‘la Raza’ ”  
-> ( 107 ).
-
-## inversión irónica
-Como observa Machado de Assis, en 1879, “el influjo externo es el que determina la dirección del movimiento; no existe por ahora en nuestro medio la fuerza necesaria para la invención de doctrinas nuevas” (826-827).
-# Notas
 
 [^1]: 
 
