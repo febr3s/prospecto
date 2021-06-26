@@ -6,12 +6,12 @@ En este capítulo propongo indagar cómo Miranda en _El Colombiano_ y en la _Pro
 
 El nombre de esta comunidad imaginada que Miranda postula en _El Colombiano_ y en la _Proclama_ será también objeto de mi análisis en este capítulo pues en el topónimo alter-americano elegido por Miranda para postular una entidad supranacional “desde Missisipi hasta Cabo de Hornos” se condensan las tensiones entre las fuentes imperiales y subalternas que confluyen contradictoriamente en el colombismo. Como recuerdan @delcastilloInventingColumbiaColombia2019 y @salcedo-bastardoPrologo1982, una de las fuentes del nombre “Colombia” es una traducción y adaptación de “Columbia”: un topónimo alegórico de la ilustración para el continente americano, con aspiraciones de expansión continental, que circulaba en múltiples productos culturales y daba nuevo nombre a lugares e instituciones –como la universidad en Manhattan– en la época que Miranda visitó Estados Unidos, tras desertar del ejército español en 1784 ().  Pero como ha demostrado @varelaFranciscoMirandaSus1997, el interés por Colón en Miranda se había hecho manifiesto antes de su visita a Estados Unidos –aunque significativamente poco antes de su deserción del ejército español. Y, por otra parte, la reivindicación de la figura del Almirante había tenido su propio camino institucional en España desde 1739 (), mientras el gran vindicador histórico de Colón es Bartolomé de Las Casas: un autor de cabecera en todas las etapas del colombismo. 
 
-Particularmente, regarding printing capitalism, considero relevante observar que la voluntad de hacer la “justicia negada a Colón” [@salcedo-bastardoPrologo1982 xvi], tiene su origen más nítido en el capítulo CXL de la _Historia general de las Indias_, donde Las Casas desmiente el viaje –ciertamente apócrifo– que se atribuye a sí mismo el autor Amerigo Vespuci en los _Four Voyages_ publicados junto con el primer mapa-mundi divulgado, por Wadseemuller en 1507. Propongo que esta reivindicación casi mesiánica[^2] del Almirante frente a una de las primeras victorias del capitalismo impreso encierra la contradicción fundamental de la afirmación de los criollos como productores en este sistema: su programa se proponía sobreponerse a la negación de su agencia como criollos –que consideran heredera del mérito negado a Colón en la literatura mundial–, mientras postergan la negación de la agencia –y la humanidad– a las poblaciones no-blancas que atraviesa la tradición liberal[^3]. 
+Particularmente, regarding printing capitalism, considero relevante observar que la voluntad de hacer la “justicia negada a Colón” [@salcedo-bastardoPrologo1982 xvi], tiene su origen más nítido en el capítulo CXL de la _Historia general de las Indias_, donde Las Casas desmiente el viaje –ciertamente apócrifo– que se atribuye a sí mismo el autor Amerigo Vespuci en los _Four Voyages_ publicados junto con el primer mapa-mundi divulgado, por Wadseemuller en 1507. En este viaje, el italiano donde aparece pisando por primera vez el continente –en la actual Venezuela– en 1497, es decir primero que Colón. Y a esta falsificación, Las Casas atribuye la toponimia continental, la cual propone corregir renombrándolo Columba, Colombo o Tierra de Gracia. Propongo que esta reivindicación lascasiana y casi mesiánica[^2] que hace Miranda del Almirante, frente a una de las primeras demostraciones de poder del capitalismo impreso, encierra la contradicción fundamental de la afirmación de los criollos como productores en este sistema: su programa se proponía sobreponerse a la negación de su agencia como criollos –que consideran heredera del mérito negado a Colón en la literatura mundial–, mientras postergan la negación de la agencia –y la humanidad– a las poblaciones no-blancas que atraviesa la tradición liberal[^3]. 
 
-En este sentido resulta muy significativa la fuente del nombre Colombia que podría asociarse más directamente a la subalternidad: la poeta esclavizada de origen africano Phillys Weathley, que se hizo famosa por un poema a George Washington, en el que se encuentra una de las primeras impresiones del nombre Columbia. Miranda conoció mientras estuvo en Estados Unidos a la poeta, como dejó anotado en su diario en días cercanos a su muerte, que ocurrió durante su estadía [@delcastilloInventingColumbiaColombia2019]  (). Si la devoción de Miranda por Colón estaba –como demuestra la evidencia textual– motivada por un reconocimiento en él de la opresión experimentada por los criollos[^5], Weathley se le debe haber presentado como un paradigma de solidaridad  libertaria entre criollos amos sin derechos políticos y no-blancos esclavos o siervos sin derechos ciudadanos. Como veremos en el resumen de los próximos capítulos, este va a ser el modelo que va a entrar en crisis y transformación profunda durante el interregno, y sobre cuyas tentativas de restauración se van a organizar las tensiones impresas entre el proyecto emancipador colombista y el proyecto neocolonial de las oligarquías.
+En este sentido resulta muy significativa la fuente del nombre Colombia que podría asociarse más directamente a la subalternidad: la poeta esclavizada de origen africano Phillys Weathley, que se hizo famosa por un poema a George Washington, en el que se encuentra una de las primeras impresiones del nombre Columbia. Miranda la conoció mientras estuvo en Estados Unidos, como dejó anotado en su diario en días cercanos a su muerte, que ocurrió durante su estadía [@delcastilloInventingColumbiaColombia2019]  (). Si la devoción de Miranda por Colón estaba –como demuestra la evidencia textual– motivada por un reconocimiento en él de la opresión experimentada por los criollos[^5], Weathley se le debe haber presentado como un paradigma de solidaridad  libertaria entre criollos amos sin derechos políticos y no-blancos esclavos o siervos sin derechos ciudadanos. Como veremos en el resumen del  próximos capítulo, este va a ser el modelo que va a entrar en crisis y transformación profunda durante el interregno, y sobre cuyas tentativas de restauración se van a organizar las tensiones impresas entre el proyecto emancipador colombista y el proyecto neocolonial de las oligarquías y los nuevos imperialismos.
 
 # Capítulo 2
-En este capítulo analizo, a través de algunas piezas impresas por Simón Bolívar entre 1813 y 1819, cómo se produjo la crisis del color-blind modelo mirandino, dando lugar a una serie de intuiciones que apuntan a un modelo racial de heterogeneidad no-dialéctica[^8] –el mismo que luego desarrollará en profundidad Simón Rodríguez, como analizaré en el capítulo 5.  Antes de referirme a estas piezas voy a hacer algunas observaciones sobre el modelo de democracia US American, para indicar cómo el modelo mirandino –también intentado por Bolívar, con variaciones, hasta 1815– trató de emularlo en un contexto radicalmente distinto, dando lugar a las catastróficas consecuencias que shaped las novedosas nociones de Bolívar.  
+En este capítulo analizo, a través de algunas piezas impresas por Simón Bolívar entre 1813 y 1819, cómo se produjo la crisis del modelo color-blind  mirandino, dando lugar a una serie de intuiciones que apuntan a un modelo racial de heterogeneidad no-dialéctica[^8] –el mismo que luego desarrollará en profundidad Simón Rodríguez, como analizaré en el capítulo 5.  Antes de referirme a estas piezas voy a hacer algunas observaciones sobre el modelo de democracia US American, para indicar cómo el modelo mirandino –también intentado por Bolívar, con variaciones, hasta 1815– trató de emularlo en un contexto radicalmente distinto, dando lugar a las catastróficas consecuencias que shaped las novedosas nociones de Bolívar.  
 
 Para En las últimas páginas de _Comunidades Imaginadas_, Anderson propone una serie de ideas sobre el racismo cuyo análisis revela tanto las bases materiales de la (US) American Revolution como el poder del mito que aún hoy las legitima.
 
@@ -31,72 +31,16 @@ El segundo es la versión en inglés pública de la famosa _Carta de Jamaica_, f
 Quarterly and Literary Gazette_, por intermediación del agente colombista Pedro Gual. En esta, como señala Alejandro A. @vallegaDecolonialityPhilosophyLatin:
 > the difficulty Bolívar puts forth so clearly requires that one remain with the Latin American (sic.) situation as such: that is, understanding by undergoing and going under that uprootedness, by thinking through a being in between and in alterity that cannot be framed or resolved by national, ethnic, or any other essentialist vision of Latin America and its peoples (22).
 
-Dada la simultaneidad de la escritura de ambos artículos, me interesan particularmente los criterios mediante los cuales se ocultan o se revelan ante el público lector las profundas incertidumbres que definen el problema racial luso-hispano-americano. Particularmente, cuáles son las condiciones que llevan a insertar en el sistema del capitalismo impreso –a cuyo corazón se dirige, publicada en una colonia del imperio británico–, una noción de “the great South-American Continent”, como una región donde “the most important events are obscured, as it were, in darkness, and consequently none but the most vague and imperfect conjectures can be formed of them” [@bolivarGeneralBolivarLetter1975 84]. Estas incertidumbres ya habían sido expresadas en el _Manifiesto de Carúpano_, el último documento público de Bolívar en Venezuela al final de la guerra social. Y la escritura de la Carta de Jamaica en 1815, dejan ver que esa noción ya habitaba el colombismo para la fecha de redacción y envío para publicación del artículo de “El Americano”. Lo que voy a explorar para este capítulo es la relación de la publicación de “General Bolivar's Letter to a Friend, on the Subject of South-American Independence” en 1818 en Jamaica, con el lanzamiento de _El Correo del Orinoco_ ese mismo año –el proyecto editorial más duradero del colombismo– y con las nociones de raza y gobernabilidad que propone Bolívar en 1819 en el “Discurso de Angostura”, publicado en este periódico.  
+Dada la simultaneidad de la escritura de ambos artículos, me interesan particularmente los criterios mediante los cuales se ocultan o se revelan ante el público lector las profundas incertidumbres que definen el problema racial luso-hispano-americano. Particularmente, cuáles son las condiciones que llevan a insertar en el sistema del capitalismo impreso –a cuyo corazón se dirige, publicada en una colonia del imperio británico–, una noción de “the great South-American Continent”, como una región donde “the most important events are obscured, as it were, in darkness, and consequently none but the most vague and imperfect conjectures can be formed of them” [@bolivarGeneralBolivarLetter1975 84]. Estas incertidumbres ya habían sido expresadas en el _Manifiesto de Carúpano_, el último documento público de Bolívar en Venezuela al final de la guerra social. Y la escritura de la Carta de Jamaica en 1815, dejan ver que esa noción ya habitaba el colombismo para la fecha de redacción y envío para publicación del artículo de “El Americano”. Lo que voy a explorar para este capítulo es la relación de la publicación de “General Bolivar's Letter to a Friend, on the Subject of South-American Independence” en 1818 en Jamaica, con el lanzamiento de _El Correo del Orinoco_ el mes anterior de ese mismo año –el proyecto editorial más duradero del colombismo– y con las nociones de raza y gobernabilidad que propone Bolívar en 1819 en el “Discurso de Angostura”, publicado en este periódico.  
 
 # Capítulo 3
-## invisibilización del supranacionalismo
-### la falla de no identificar las apuestas del interregno
+En este capítulo exploro, a través de los documentos pertenecientes a la República de las Floridas, y de las notas en el _Correo del Orinoco_ sobre la apropiación US American de este territorio. Con este análisis me propongo arrojar luz sobre lo que oscurece la falla estructural más importante de Anderson en su análisis de la POD, que no le permite detectar que la vanguardia del capitalismo impreso –al menos mientras estuvo vigente el proyecto supranacional– no apuntó a reforzar las barreras de los nacionalismos (neo)coloniales, sino a disolverlas. Esta falla es que, aunque tiene presente la ambigüedad entre el localismo y el espíritu supranacional[^11], no considera los proyectos editoriales que más manifiestamente participaron como productores del capitalismo impreso en ese horizonte. En consecuencia, sus consideraciones de ese período de transición lo subsumen, como es usual, en la interpretación retrospectiva del nomos imperial-nacionalista que lo antecedió y lo sucedió. 
 
-> Los criollos mexicanos podrían en-
-> terarse de los acontecimientos de Buenos Aires varios
-> meses más tarde, pero lo harían por medio de periódi-
-> cos mexicanos, no del Río de la Plata; y tales hechos apa-
-> recerían como "similares" a los sucesos de México, no
-> como "parte" de ellos.
-> 99
+Solo las tres primeras páginas del primer número del _Correo del Orinoco_ bastarían para probar los límites de la afirmación según la cual “[l]os criollos mexicanos podrían enterarse de los acontecimientos de Buenos Aires varios meses más tarde, pero lo harían por medio de periódicos mexicanos, no del Río de la Plata; y tales hechos aparecerían como 'similares' a los sucesos de México, no como 'parte' de ellos” (99). No queda claro si el caso de México y Buenos Aires es un ejemplo fortuito o concreto, y está fuera de los alcances de mi investigación probar si en esos casos particulares esto se puede sostener. Pero puede decirse con precisión que esa afirmación no es extrapolable al epicentro de la POD. Lo primero que se publica en el órgano de propaganda del colombismo de 1818, después de dos partes de guerra es: una carta a Bolívar del Director Supremo de las Provincias del Río de La Plata, Juan Martín de Pueyrredón; un comunicado de Pueyrredón a los “habitantes de Tierra-Firme” –Venezuela–, a los que llama “compatriotas”, y las respuestas respectivas de Bolívar, a Pueyrredón, y a los habitantes del Río de la Plata. Propone que estos, en Venezuela, “no serán tratados y recibidos aquí como miembros de una República amiga, sino como miembros de nuestra sociedad venezolana” ()
 
-### el acierto de identificar el dispositivo imperial de separación
-> La extensión in-
-> mensa del Imperio hispanoamericano, y el aislamiento
-> de las partes que lo formaban, hacían difícil imaginar
-> 50tal simultaneidad. 99
-
-Sobre la peregrinación, su equivalente en el viaje del funcionario feudal y su funcionamiento irregular o impedido en en las Américas (85-90). Nótese que se le escapa otra diferencia estructural entre las dos Américas, pues los impedimentos que reconoce en el imperio español no pertenecen a las colonias inglesas.
-
->  Las peregrinaciones virreinales, llenas de obstácu-
-> los, no tuvieron consecuencias decisivas mientras su al-
-> cance territorial no pudiera imaginarse como una na-
-> ción, es decir, mientras no llegara el capitalismo impreso.
-> 
-> 96
-
-Sobre las distancias y la –sólida– tesis de las nacionalidades provincianas (84)
-### el acierto de señalar que esa entidad elusiva del “capitalismo impreso” es una tentativa de superación del uti possidetis virreinal
->  Las peregrinaciones virreinales, llenas de obstácu-
-> los, no tuvieron consecuencias decisivas mientras su al-
-> cance territorial no pudiera imaginarse como una na-
-> ción, es decir, mientras no llegara el capitalismo impreso.
-> 
-> 96
-
-El punto del uti possidetis, que también está en Grandin, y la necesidad de repensarlo en función del _throwness_ y del proyecto unitario (85). Es decir, uno de los puntos flojos del análisis es que está anclado al esquema neocolonial que prevaleció. Es decir, en la interpretación retrospectiva del nomos imperial-nacionalista. La razón de la unidad es un principio que se opone a uno de los mecanismos fundamentales de dominación, y donde la libre circulación es uno de los puntos clave. El punto de “morir con gusto” en la primera ola de descolonización tiene todo que ver con el throwness colonial y su elaboración simbólica supranacionalista, y nada con los mitos nacionalistas neocoloniales.
-
-### el acierto de identificar el espíritu supranacional de la época
-> Los periódicos hispanoamericanos que surgieron
-> hacia fines del siglo XVIII se escribían con plena con-
-> ciencia de los provincianos acerca de mundos seme-
-> jantes al suyo. Los lectores de periódico de la ciudad
-> de México, Buenos Aires y Bogotá, aunque no leyeran
-> los periódicos de las otras ciudades, estaban muy cons-
-> cientes de su existencia. Así se explicaba la conocida
-> duplicidad del temprano nacionalismo hispanoameri-
-> cano, su alternación de gran alcance y su localismo
-> particularista. El hecho de que los primeros nacionalis-
-> tas mexicanos escribieran refiriéndose a "nosotros los
-> americanos", y a su país como "nuestra América", se ha
-> interpretado como una revelación de la vanidad de los
-> criollos locales que, debido a que México era con mucho
-> la más valiosa de las posesiones americanas de España,
-> 48se sentían el centro del Nuevo Mundo. En realidad los
-> habitantes de toda Hispanoamérica se consideraban
-> "americanos", porque este término denotaba precisa-
-> mente la fatalidad compartida del nacimiento fuera de
-> 49
-> España.
-> 
-> 98
-
-
+ El remate de la carta de Bolívar a Pueyrredón publicada en el _Correo_ –“una sola debe ser la Patria de todos los Americanos” ()– apunta directamente a uno de los dispositivos imperiales más eficaces para inhibir la autoafirmación de los criollos. Esto lo detecta con asertividad Anderson cuando señala que “[l]a extensión in mensa del Imperio hispanoamericano, y el aislamiento de las partes que lo formaban, hacían difícil imaginar tal simultaneidad” (99). Las distancias y las dificultades burocráticas que oponía el imperio para movilizarse y para comerciar fortalecieron las nacionalidades provincianas, que se impusieron a mediano plazo por encima de los proyectos supranacionales (84). Como lo expresa una carta del padre de Simón Bolívar a Francisco de Miranda, una de las restricciones que más irritaban a los criollos antes de la Independencia, era la de no poder viajar (). En ese sentido, es difícil pensar que “[l]as peregrinaciones virreinales, llenas de obstáculos, no tuvieron consecuencias decisivas mientras su alcance territorial no pudiera imaginarse como una nación, es decir, mientras no llegara el capitalismo impreso” [@andersonComunidadesImaginadasReflexiones2006 96]. ¿Qué interés podían tener los criollos en emplear el novedoso poder mediático en reforzar las fronteras que le habían impuesto sus opresores?
+ 
+ Los documentos de la República de las Floridas (RF), y la consideración de la adquisición US American en el _Correo_, permiten observar cómo el principio de _uti posidetis_, que Greg Grandin () y Gerard Masur [citado por @andersonComunidadesImaginadasReflexiones2006 85] identifican como característico de la POD –y que de hecho así se reconoce en la teoría del derecho internacional ()– funciona de una manera _sui generis_. Existe, hasta cierto punto –puntualmente hasta el proyecto de Simón Rodríguez, quien llama a no tener más límites que los del océano– un límite en el proyecto de Colombia desde los establecidos por Miranda, salvo por la compra de Luisiana. Y las divisiones que se pensaron en las distintas organizaciones confederativas proyectadas no difirieron de los límites imperiales. Sin embargo, dentro de esos límites había una flexibilidad que permitía una experiencia como la de la RF, donde la bandera que se levantó fue la de México, en una aventura organizada por un irlandés, acompañados de neogranadinos, argentinos, en nombre de un país (Colombia) cuyo eje político y militar estaba en Venezuela, pero que podía, como quedaba demostrado, reclamar territorio en cualquier lugar dentro del espacio que se reclamaba como herencia colombina.
 
 
 # Capítulo 4
@@ -105,27 +49,7 @@ Marshal McLuhan destaca el aislamiento y jerarquización del sentido de la vista
 
 
 
-## quizá para nota al pie sobre los robos de McLuhan
-> La otra cara de la oscuridad anónima de los lectores era (es) la
-> celebridad inmediata del autor. Como veremos más adelante, esta
-> oscuridad y celebridad tienen mucho que ver con la difusión del ca-
-> pitalismo impreso. 
-> 50
-
- "producto industrial producido en masa, al estilo moderno" (59)
- 
- > En la Europa an-  
-> terior a la imprenta, y por supuesto en el resto del mun-  
-> do, la diversidad de las lenguas habladas, esas lenguas  
-> que son para quienes las hablan la trama y la urdimbre  
-> de sus vidas, era inmensa; tan inmensa, en efecto, que si  
-> el capitalismo impreso hubiese tratado de explotar cada  
-> mercado potencial de lengua vernácula habría conser-  
-> vado minúsculas proporciones
-> 
-> 71
-
-Otro robo de McLuhan, hasta cierto punto aunque lo que nos interesa aquí es otra cosa
+# Notas
 
 [^1]: 
 
@@ -147,3 +71,5 @@ Otro robo de McLuhan, hasta cierto punto aunque lo que nos interesa aquí es otr
 fácilmente accesibles entre sí, y sus poblaciones estaban
 un tanto unidas por la imprenta y el comercio. Los "Estados Unidos" pudieron multiplicar poco a poco el número de sus habitantes durante los siguientes 183 años, a medida que las poblaciones antiguas y las nuevas
 avanzaban hacia el Oeste dejando atrás el antiguo núcleo de la costa oriental.
+
+[^11]: “Los periódicos hispanoamericanos que surgieron hacia fines del siglo XVIII se escribían con plena conciencia de los provincianos acerca de mundos semejantes al suyo. Los lectores de periódico de la ciudad de México, Buenos Aires y Bogotá, aunque no leyeran los periódicos de las otras ciudades, estaban muy conscientes de su existencia. Así se explicaba la conocida duplicidad del temprano nacionalismo hispanoamericano, su alternación de gran alcance y su localismo particularista (…) En realidad los habitantes de toda Hispanoamérica se consideraban 'americanos', porque este término denotaba precisamente la fatalidad compartida del nacimiento fuera de España” (Anderson 98)
