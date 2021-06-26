@@ -1,3 +1,4 @@
+
 ### Hardt, Michael., y Antonio Negri. _Empire_. 10/18 : Exils, 2004. /z-wcorg/.
 
 > En ningún lugar del mundo el nacionalismo como tal ha desafiado la legitimidad del matrimonio entre la Razón y el capital. El pensamiento nacionalista... no posee los medios ideológicos para afrontar este desafío. Resuelve el conflicto entre el capital metropolitano y el pueblo-nación absorbiendo la vida política de la nación dentro del cuerpo del Estado. Conservador de la revolución pasiva, el estado nacional procede ahora a encontrar para "la nación" un lugar en el orden global del capital, mientras se esfuerza en mantener en suspenso perpetuo las contradicciones entre el capital y el pueblo. Toda la política se ve ahora subsumida bajo los abrumadores requerimientos del Estado-representando-a-la-nación. 36
